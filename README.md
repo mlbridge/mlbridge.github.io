@@ -1,8 +1,8 @@
-<p float="left" align = "left">
-  <img src="readme-assets/ML_Bridge_Logo.png" width="400"/>
+<p float="left" align = "center">
+  <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
-# 
+# About
 
 ## Check if this works too
 
