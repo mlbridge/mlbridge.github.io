@@ -1,5 +1,5 @@
 <p float="left" align = "center">
-  <img src="readme-assets/ML_Bridge_Logo.png" width="600"/>
+  <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
 # Overview
@@ -26,7 +26,13 @@ tools like TensorFlow, PyTorch, MXNet and various others that not only interact
 with the CUDA platform but also allows for the easy prototyping and evaluation 
 of deep learning models.
 
+This project combines the deep learning capabilities that the Python ecosystem 
+provides, with CoreDNS, by creating:
 
+- An ML Bridge Plugin (a CoreDNS Plugin): The plugin intercepts requests and 
+forwards them to the Application Middleware for further processing. The 
+repository for the same can be found 
+[here](https://github.com/mlbridge/coredns-mlbridge).  
 
 
 
