@@ -1,4 +1,4 @@
-<p float="left" align = "center">
+<p float="left" align = "left">
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
