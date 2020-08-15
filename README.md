@@ -30,9 +30,8 @@ This project combines the deep learning capabilities that the Python ecosystem
 provides, with CoreDNS, by creating:
 
 - **An ML Bridge Plugin (a CoreDNS Plugin):** The plugin intercepts requests and 
-forwards them to the Application Middleware for further processing. 
-
-The repository for the ML Bridge Plugin can be found 
+forwards them to the Application Middleware for further processing. The 
+repository for the ML Bridge Plugin can be found 
 [here](https://github.com/mlbridge/coredns-mlbridge). 
 
 - **An ML Bridge Middleware:** The middleware receives the request from the ML 
@@ -41,9 +40,7 @@ request is from a malicious or a benign website, from a vetted list. However, if
 the domain is not in the vetted list, a machine learning model infers whether 
 the request is malicious or benign, and then sends back a response to the plugin
 whether to allow the request or block it. It stores the result as well as other 
-metadata to a database. 
-
-The repository for the ML Bridge Middleware can be 
+metadata to a database. The repository for the ML Bridge Middleware can be 
 found [here](https://github.com/mlbridge/mlbridge-middleware).
 
 - **An ML Bridge User Interface:** The user interface is used to analyse 
@@ -51,9 +48,7 @@ historical trends as to how many people are accessing malicious websites and at
 what frequency. It is also used to manually vet websites and classify them as 
 malicious or benign. The user interface is also used to train new machine 
 learning models or retrain existing models by communicating with the ML Bridge 
-Machine Learning module.
-
-The repository for the ML Bridge User Interface can be found 
+Machine Learning module. The repository for the ML Bridge User Interface can be found 
 [here](https://github.com/mlbridge/mlbridge-ui).
 
 
