@@ -151,7 +151,7 @@ trained using batch gradient descent with the Adam optimizer.
 # A Deep Dive into the Inner Working of ML Bridge
 
 <p float="left" align = "center">
-  <img src="readme-assets/mlbridge_inner_working.png"/>
+  <img src="readme-assets/mlbridge_inner_working_.png"/>
 </p> 
 
 
