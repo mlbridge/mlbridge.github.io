@@ -59,7 +59,11 @@ information entered, and then the results of the training are communicated back
 to the ML Bridge User Interface. The ML Bridge User Interface then displays the 
 result in the form of accuracy and loss graphs as well as confusion matrices and 
 metrics. The repository got the ML Bridge Machine Learning Module can be found
-[here](https://github.com/mlbridge/mlbridge-machine-learning).  
+[here](https://github.com/mlbridge/mlbridge-machine-learning). 
+
+<p float="left" align = "center">
+  <img src="readme-assets/mlbridge_inner_working.png" width="500"/>
+</p> 
 
 
 
