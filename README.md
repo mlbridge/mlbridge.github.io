@@ -58,7 +58,7 @@ instructions to start the same can be found in this
 Next, start the CoreDNS Server. The CoreDNS can be started by following the 
 instructions found in this [link](https://github.com/coredns/coredns).
 
-Then, go to the mlbridge directory by using the following command:
+Then, go to the `mlbridge` directory by using the following command:
 
 ```
 cd mlbridge
