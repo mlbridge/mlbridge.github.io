@@ -48,8 +48,18 @@ historical trends as to how many people are accessing malicious websites and at
 what frequency. It is also used to manually vet websites and classify them as 
 malicious or benign. The user interface is also used to train new machine 
 learning models or retrain existing models by communicating with the ML Bridge 
-Machine Learning module. The repository for the ML Bridge User Interface can be found 
-[here](https://github.com/mlbridge/mlbridge-ui).
+Machine Learning module. The repository for the ML Bridge User Interface can be 
+found [here](https://github.com/mlbridge/mlbridge-ui).
+
+- **An ML Bridge Machine Learning Module:** The machine learning module is used 
+to train new models or retrain existing ones. The module receives model 
+training information from the details entered by the user in the Training section 
+of the ML Bridge User Interface. The model is then trained according to the 
+information entered, and then the results of the training are communicated back 
+to the ML Bridge User Interface. The ML Bridge User Interface then displays the 
+result in the form of accuracy and loss graphs as well as confusion matrices and 
+metrics. The repository got the ML Bridge Machine Learning Module can be found
+[here](https://github.com/mlbridge/mlbridge-machine-learning).  
 
 
 
