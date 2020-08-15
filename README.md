@@ -148,7 +148,7 @@ The dataset was split as follows:
 **Training:** The deep-learning model is a Convolutional Neural Net that is 
 trained using batch gradient descent with the Adam optimizer.
 
-# Inner Working
+# A Deep Dive into the Inner Working of ML Bridge
 
 <p float="left" align = "center">
   <img src="readme-assets/mlbridge_inner_working.png"/>
