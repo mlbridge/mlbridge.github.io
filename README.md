@@ -15,7 +15,7 @@ CoreDNS, to protect people against malicious websites and applications. It helps
 in identifying websites that could be potentially used by malicious hackers and 
 cybercriminals and prevents the user from accessing such websites. 
 
-# Installation
+# Installation Guide
 
 The repositories in the ML Bridge organisation require the Elasticsearch Server.
 To install the Elasticsearch Server please follow the instructions that can be 
@@ -49,6 +49,28 @@ mlbridge
    |__ mlbridge-middleware
    |__ mlbridge-ui
    |__ mlbridge-machine-learning
+```
+
+To start the ML Bridge software suite, first start the Elasticsearch Server. The
+instructions to start the same can be found in this
+[link](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
+
+Next, start the CoreDNS Server. The CoreDNS can be started by following the 
+instructions found in this [link](https://github.com/coredns/coredns).
+
+Then, go to the mlbridge directory by using the following command:
+
+```
+cd mlbridge
+``` 
+
+Finally, execute the following script to start the ML Bridge software suite:
+
+```
+python mlbridge-middleware/mlbridge_middleware/src/middleware.py &
+python mlbridge-ui/mlbridge_ui/src/ui.py &
+python mlbridge-machine-learning/python-code/training/py
+
 ```
 
 # Approach
