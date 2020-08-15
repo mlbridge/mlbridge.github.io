@@ -29,6 +29,10 @@ of deep learning models.
 This project combines the deep learning capabilities that the Python ecosystem 
 provides, with CoreDNS, by creating:
 
+<p float="left" align = "center">
+  <img src="readme-assets/mlbridge_overview.png"/>
+</p> 
+
 - **An ML Bridge Plugin (a CoreDNS Plugin):** The plugin intercepts requests and 
 forwards them to the Application Middleware for further processing. The 
 repository for the ML Bridge Plugin can be found 
@@ -61,9 +65,7 @@ result in the form of accuracy and loss graphs as well as confusion matrices and
 metrics. The repository got the ML Bridge Machine Learning Module can be found
 [here](https://github.com/mlbridge/mlbridge-machine-learning). 
 
-<p float="left" align = "center">
-  <img src="readme-assets/mlbridge_overview.png"/>
-</p> 
+
 
 
 
