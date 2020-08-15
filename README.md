@@ -31,8 +31,19 @@ provides, with CoreDNS, by creating:
 
 - An ML Bridge Plugin (a CoreDNS Plugin): The plugin intercepts requests and 
 forwards them to the Application Middleware for further processing. The 
-repository for the same can be found 
-[here](https://github.com/mlbridge/coredns-mlbridge).  
+repository for the ML Bridge Plugin can be found 
+[here](https://github.com/mlbridge/coredns-mlbridge). 
+
+- An ML Bridge Middleware: The middleware receives the request from the ML 
+Bridge Plugin along with other metadata. The middleware infers whether the 
+request is from a malicious or a benign website, from a vetted list. However, if 
+the domain is not in the vetted list, a machine learning model infers whether 
+the request is malicious or benign, and then sends back a response to the plugin
+whether to allow the request or block it. It stores the result as well as other 
+metadata to a database. The repository for the ML Bridge Middleware can be 
+found [here](https://github.com/mlbridge/mlbridge-middleware).
+
+
 
 
 
