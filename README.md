@@ -62,7 +62,7 @@ metrics. The repository got the ML Bridge Machine Learning Module can be found
 [here](https://github.com/mlbridge/mlbridge-machine-learning). 
 
 <p float="left" align = "center">
-  <img src="readme-assets/mlbridge_inner_working.png" width="500"/>
+  <img src="readme-assets/mlbridge_overview.png"/>
 </p> 
 
 
