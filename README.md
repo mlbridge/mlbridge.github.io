@@ -80,7 +80,7 @@ from both these datasets.
 
 ### Learning Process
 
-Data Preprocessing: Each domain name is converted into a unicode code point 
+**Data Preprocessing:** Each domain name is converted into a unicode code point 
 representation and then extended to a numpy array of a length 256. The dataset 
 was created by combining the malicious domains as well as the non-malicious. 
 The dataset was split as follows:
@@ -88,7 +88,7 @@ The dataset was split as follows:
 - Validation Set: 10 % of the dataset
 - Test Set: 10% of the dataset
 
-Training: The deep-learning model is a Convolutional Neural Net that is 
+**Training:** The deep-learning model is a Convolutional Neural Net that is 
 trained using batch gradient descent with the Adam optimizer.
 
 
