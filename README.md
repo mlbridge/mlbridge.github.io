@@ -172,30 +172,22 @@ as a JSON message, via HTTP POST requests from the ML Bridge Plugin.
 
 The Middleware first preprocessess the request forwarded from the 
 Machine Learning Plugin. The preprocessed request is then cross checked against 
-manually vetted lists. 
-
-If the request is of a benign domain, a response is sent back to the ML Bridge 
-Plugin that allows the fallthrough to other plugins.  
-
+manually vetted lists. If the request is of a benign domain, a response is 
+sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
 If the request is of a malicious domain, a response is sent back to the ML 
 Bridge Plugin that prevents the fallthrough to other plugins. Moreover, the ML 
 Bridge Plugin sends back a Honeypot or a Blackhole IP to the user querying the 
-malicious domain.
-
-If the domain does not exist in the manually vetted list, the preprocesssed 
-request is then sent to the machine learning model where it infers whether it 
-is benign or malicious.
+malicious domain. If the domain does not exist in the manually vetted list, the 
+preprocesssed request is then sent to the machine learning model where it infers 
+whether it is benign or malicious.
 
 If the machine learning model is highly confident that the request is of a
 benign domain, then a response is sent back to the ML Bridge Plugin that allows 
-the fallthrough to other plugins.
-
-If the model is highly confident that the domain name is malicious, a response 
-is sent back to the ML Bridge Plugin that prevents the fallthrough to other 
-plugins. Moreover, the ML Bridhe Plugin sends back a Honeypot or a
-Blackhole IP to the user querying the malicious domain.
-
-If the model is not confident about its prediction, then a response is sent back 
+the fallthrough to other plugins. If the model is highly confident that the 
+domain name is malicious, a response is sent back to the ML Bridge Plugin that 
+prevents the fallthrough to other plugins. Moreover, the ML Bridhe Plugin sends 
+back a Honeypot or aBlackhole IP to the user querying the malicious domain. If 
+the model is not confident about its prediction, then a response is sent back 
 to the ML Bridge Plugin that allows the fallthrough to other plugins. However,
 the domain name is stored in the database for manual vetting. 
 
