@@ -301,6 +301,21 @@ of the training are updated in real time. Once the training is completed, the
 confusion matrices as well as confusion metrics can be observed to understand 
 the efficacy of the model. 
 
+The efficacy of older pre - trained models can also be observed by selecting the
+load model option and entering the name of a pre - trained model. 
+
+## ML Bridge Machine Learning Module
+
+The ML Bridge Machine Learning Module is a module that uses the information 
+as provided by the user regarding training, in the User Interface, namely the 
+number of epochs, the batch size as well as the sample size to train a new model
+or retrain the existing model. The module then communicates back to the User 
+Interface the accuracy graph, the loss graph, the confusion matrices as well as 
+confusion metrics. A separate module such as the ML Bridge Machine Learning 
+Module is used so that the training can happening parallelly while the user can
+use the User Interface for other purposes without having to wait for the 
+training to complete. 
+
 
 
 
