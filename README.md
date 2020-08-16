@@ -206,7 +206,22 @@ The ML Bridge User Interface has three main use cases:
 
 ### Historical Analysis
 
-The demo of the 
+The application allows the user to historically analyse the frequency at which 
+domains have been queried and the IP addresses of the users querying those 
+domains. 
+
+The demo of the Historical Analysis can be found below:
+
+<p float="left" align = "center">
+  <img src="readme-assets/historical-analysis.gif"/>
+</p>
+
+The features of Historical Analysis are as follows:
+
+- 
+
+
+
 
 ### Manual Vetting
 
