@@ -236,7 +236,7 @@ are highlighted in red.
 
 <p float="left" align = "center">
   <img src="readme-assets/historical_analysis_1.png" width="400"/>
-  <img src="readme-assets/historical_analysis_1.png" width="400"/>
+  <img src="readme-assets/historical_analysis_2.png" width="400"/>
 </p>
 
 - **Analysis of Benign Domain Names:** The user interface enables the user to
