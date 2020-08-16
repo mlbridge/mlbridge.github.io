@@ -67,9 +67,9 @@ cd mlbridge
 Finally, execute the following script to start the ML Bridge software suite:
 
 ```
-python mlbridge-machine-learning/python-code/training/py &
+python mlbridge-ui/mlbridge_ui/src/ui.py &
 python mlbridge-middleware/mlbridge_middleware/src/middleware.py &
-python mlbridge-ui/mlbridge_ui/src/ui.py 
+python mlbridge-machine-learning/python-code/training/py 
 ```
 
 # Approach
