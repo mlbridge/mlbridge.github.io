@@ -273,6 +273,8 @@ low confidence on, thereby creating a new dataset of malicious or benign
 domains. This dataset can be used for blocking or allowing domains and also for 
 updating the dataset for retraining the model.
 
+The demo of Manual Vetting can be seen below:
+
 <p float="left" align = "center">
   <img src="readme-assets/manual-vetting.gif"/>
 </p>
@@ -283,6 +285,21 @@ send back Honeypot IP addresses to the malicious domain.
 
 ### Training a new Model or Retraining older Models
 
+The ML Bridge User Interface can be used to train new machine learning models
+or retrain older machine learning models. Such a capability is extremely useful
+when the current model underperforms or there is new data to train the model on.
+
+A demo of the Training can be seen below:
+
+<p float="left" align = "center">
+  <img src="readme-assets/training.gif"/>
+</p>
+
+The user has the ability to enter the number of epochs, the batch size as well
+as the sample size for the model training. The loss as well as accuracy graphs 
+of the training are updated in real time. Once the training is completed, the 
+confusion matrices as well as confusion metrics can be observed to understand 
+the efficacy of the model. 
 
 
 
