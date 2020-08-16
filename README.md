@@ -226,6 +226,11 @@ requests to that particular domain name in that time range, the nature of the
 domain name (benign or malicious) and also the IP addresses that have queried 
 that particular domain name. This allows for a domain specific analysis.
 
+<p float="left" align = "center">
+  <img src="readme-assets/historical_analysis_1.png" width="410"/>
+  <img src="readme-assets/historical_analysis_2.png" width="410"/>
+</p>
+
 - **Analysis of Malicious Domain Names:** The user interface enables the user to
 visualize the top 20 malicious domains queried, as a bar graph. It also displays 
 a list of all the malicious domains queried which can be seen via a toggle
@@ -235,8 +240,8 @@ misclassification. Moreover, the domain names that the model is not confident
 are highlighted in red.
 
 <p float="left" align = "center">
-  <img src="readme-assets/historical_analysis_1.png" width="450"/>
-  <img src="readme-assets/historical_analysis_2.png" width="450"/>
+  <img src="readme-assets/malicious_domains_1.png" width="410"/>
+  <img src="readme-assets/malicious_domain_2.png" width="410"/>
 </p>
 
 - **Analysis of Benign Domain Names:** The user interface enables the user to
