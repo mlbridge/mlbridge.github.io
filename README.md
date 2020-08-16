@@ -218,10 +218,34 @@ The demo of the Historical Analysis can be found below:
 
 The features of Historical Analysis are as follows:
 
-- 
+- **Domain Name Analysis:** The user interface enables the user to search for a
+a particular domain name along with a time range. The user interface then  
+searches for that particular domain name in the Elasticsearch database. 
+Once the domain name is found, the user interface will display the number of 
+requests to that particular domain name in that time range, the nature of the 
+domain name (benign or malicious) and also the IP addresses that have queried 
+that particular domain name. This allows for a domain specific analysis.
 
+- **Analysis of Malicious Domain Names:** The user interface enables the user to
+visualize the top 20 malicious domains queried, as a bar graph. It also displays 
+a list of all the malicious domains queried which can be seen via a toggle
+switch in the same window. This allows the user to gain a general picture of all
+the malicious domain names queried and also helps in identifying model 
+misclassification. Moreover, the domain names that the model is not confident 
+are highlighted in red.
 
+- **Analysis of Benign Domain Names:** The user interface enables the user to
+visualize the top 20 benign domains queried, as a bar graph. It also displays 
+a list of all the benign domains queried which can be seen via a toggle
+switch in the same window. This allows the user to gain a general picture of all
+the benign domain names queried and also helps in identifying model 
+misclassification. Moreover, the domain names that the model is not confident 
+are highlighted in red.
 
+- **WhoIS Information:** The user interface enables the user to access the the
+WhoIS records of the domain name. This allows the user to understand more 
+information regarding the request queried, thereby enabling the user to make a 
+well informed decision while vetting domain names. 
 
 ### Manual Vetting
 
