@@ -234,6 +234,11 @@ the malicious domain names queried and also helps in identifying model
 misclassification. Moreover, the domain names that the model is not confident 
 are highlighted in red.
 
+<p float="left" align = "center">
+  <img src="readme-assets/historical_analysis_1.png" width="400"/>
+  <img src="readme-assets/historical_analysis_1.png" width="400"/>
+</p>
+
 - **Analysis of Benign Domain Names:** The user interface enables the user to
 visualize the top 20 benign domains queried, as a bar graph. It also displays 
 a list of all the benign domains queried which can be seen via a toggle
