@@ -252,10 +252,19 @@ the benign domain names queried and also helps in identifying model
 misclassification. Moreover, the domain names that the model is not confident 
 are highlighted in red.
 
+<p float="left" align = "center">
+  <img src="readme-assets/benign_domains_1.png" width="410" height="300"/>
+  <img src="readme-assets/benign_domains_2.png" width="410" height="300"/>
+</p>
+
 - **WhoIS Information:** The user interface enables the user to access the the
 WhoIS records of the domain name. This allows the user to understand more 
 information regarding the request queried, thereby enabling the user to make a 
 well informed decision while vetting domain names. 
+
+<p float="left" align = "center">
+  <img src="readme-assets/who_is_domains.png" width="410" height="300"/>
+</p>
 
 ### Manual Vetting
 
