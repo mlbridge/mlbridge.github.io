@@ -227,8 +227,8 @@ domain name (benign or malicious) and also the IP addresses that have queried
 that particular domain name. This allows for a domain specific analysis.
 
 <p float="left" align = "center">
-  <img src="readme-assets/historical_analysis_1.png" height="410"/>
-  <img src="readme-assets/historical_analysis_2.png" height="410"/>
+  <img src="readme-assets/historical_analysis_1.png" width="410" height="410"/>
+  <img src="readme-assets/historical_analysis_2.png" width="410" height="410"/>
 </p>
 
 - **Analysis of Malicious Domain Names:** The user interface enables the user to
@@ -240,8 +240,8 @@ misclassification. Moreover, the domain names that the model is not confident
 are highlighted in red.
 
 <p float="left" align = "center">
-  <img src="readme-assets/malicious_domains_1.png" height="410"/>
-  <img src="readme-assets/malicious_domain_2.png" height="410"/>
+  <img src="readme-assets/malicious_domains_1.png" width="410" height="410"/>
+  <img src="readme-assets/malicious_domain_2.png" width="410" height="410"/>
 </p>
 
 - **Analysis of Benign Domain Names:** The user interface enables the user to
