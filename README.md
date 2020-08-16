@@ -148,12 +148,20 @@ The dataset was split as follows:
 **Training:** The deep-learning model is a Convolutional Neural Net that is 
 trained using batch gradient descent with the Adam optimizer.
 
-# A Deep Dive into the Inner Working of ML Bridge
+# The Inner Working of ML Bridge
 
 <p float="left" align = "center">
   <img src="readme-assets/mlbridge_inner_working_.png"/>
 </p> 
 
+## ML Bridge Plugin
+
+The ML Bridge Plugin is a CoreDNS plugin that forwards requests to the 
+ML Bridge Middleware via HTTP POST requests. Once the Middleware processes the 
+request, it sends back the prediction, whether the domain name is malicious or 
+benign, to the plugin. Depending on the nature of the domain name, the plugin 
+can be configured to allow the request to fall through to the other plugins or 
+send the request to Honeypot or a Blackhole IP.
 
 
 
