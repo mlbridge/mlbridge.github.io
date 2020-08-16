@@ -196,6 +196,21 @@ date and time of the request are stored in a NoSQL database, namely
 Elasticsearch, due to which storing and querying the classification result and 
 the metadata is a fast process.
 
+## ML Bridge User Interface
+
+The ML Bridge User Interface has three main use cases:
+
+- Historical Analysis
+- Manual Vetting
+- Training or Retraining Models
+
+### Historical Analysis
+
+The demo of the 
+
+### Manual Vetting
+
+### Training a new Model or Retraining older Models
 
 
 
