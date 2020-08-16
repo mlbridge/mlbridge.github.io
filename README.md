@@ -268,6 +268,15 @@ well informed decision while vetting domain names.
 
 ### Manual Vetting
 
+Manual Vetting allows the user to manually vet domain names that the model has a 
+low confidence on, thereby creating a new dataset of malicious or benign 
+domains. This dataset can be used for blocking or allowing domains and also for 
+updating the dataset for retraining the model.
+
+<p float="left" align = "center">
+  <img src="readme-assets/manual-vetting.gif"/>
+</p>
+
 ### Training a new Model or Retraining older Models
 
 
