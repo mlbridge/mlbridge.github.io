@@ -319,7 +319,7 @@ training to complete.
 # Code Documentation
 
 Please click on the individual links to obtain the documentation regarding the 
-Code for each repository:
+code for each repository:
 
 - <a href="middleware.html">ML Bridge Middleware</a>
 
