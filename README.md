@@ -321,6 +321,7 @@ training to complete.
 Please click on the individual links to obtain the documentation regarding the 
 code for each repository:
 
+- <a href="training.html">ML Bridge Machine Learning Module</a>
 - <a href="middleware.html">ML Bridge Middleware</a>
 
 
