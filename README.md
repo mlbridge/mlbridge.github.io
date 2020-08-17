@@ -219,12 +219,12 @@ The demo of the Historical Analysis can be found below:
 The features of Historical Analysis are as follows:
 
 - **Domain Name Analysis:** The user interface enables the user to search for a
-a particular domain name along with a time range. The user interface then  
-searches for that particular domain name in the Elasticsearch database. 
-Once the domain name is found, the user interface will display the number of 
-requests to that particular domain name in that time range, the nature of the 
-domain name (benign or malicious) and also the IP addresses that have queried 
-that particular domain name. This allows for a domain specific analysis.
+a particular domain name along with a time range. The user interface then searches 
+for that particular domain name in the Elasticsearch database. Once the domain 
+name is found, the user interface will display the number of requests to that 
+particular domain name in that time range, the nature of the domain name (benign 
+or malicious) and also the IP addresses that have queried that particular domain 
+name. This allows for a domain specific analysis.
 
 <p float="left" align = "center">
   <img src="readme-assets/historical_analysis_1.png" width="410" height="300"/>
