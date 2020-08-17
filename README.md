@@ -321,7 +321,7 @@ training to complete.
 Please click on the individual links to obtain the documentation regarding the 
 Code for each repository:
 
-- <a href="_layouts/middleware.html">ML Bridge Middleware</a>
+- <a href="./middleware.html">ML Bridge Middleware</a>
 
 
 
