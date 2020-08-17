@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.4" />
+<title>training API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>training</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import numpy as np
+import tensorflow as tf
+from tensorflow.keras import layers, models, optimizers
+from sklearn.metrics import confusion_matrix
+from elasticsearch import Elasticsearch
+import csv
+
+
+def string_to_ascii(string):
+    &#34;&#34;&#34;
+
+    Function that converts the domain name to an integer array of ASCII values.
+
+    Args:
+        string: Contains the Domain Name entered by the user.
+
+    Returns:
+        A numpy array of ASCII values corresponding to the characters of the
+        Domain Name
+
+    &#34;&#34;&#34;
+
+    ascii_arr = np.zeros(len(string))
+    for i in range(len(string)):
+        ascii_arr[i] = ord(string[i])
+    return ascii_arr
+
+
+def import_data(string_to_ascii, data_path, labels, header, lateral_skip,
+                no_of_entries, csv_txt):
+    &#34;&#34;&#34;
+
+    Function that imports data from both CSV files as well as TXT files.
+
+    Args:
+        string_to_ascii: Contains the string_to_ascii function.
+        data_path: Contains the path of the data to import.
+        labels: Contains the labels of the data that has to be imported.
+        header: Contains the number of lines to skip from the top.
+        lateral_skip: Contains the number of spaces to skip from the left.
+        no_of_entries: Contains the number of data entries that have to be
+                       imported.
+        csv_txt: Contains whether the data to be imported is of a CSV file or a
+                 TXT file.
+
+    Returns:
+        The data that has to be imported as well as the labels corresponding to
+        the data.
+
+    &#34;&#34;&#34;
+
+    if csv_txt == 0:
+        data = open(data_path, &#34;r&#34;)
+        data = list(data.readlines())
+    else:
+        data = open(data_path, &#39;rt&#39;)
+        reader = csv.reader(data, delimiter=&#39;,&#39;, quoting=csv.QUOTE_NONE)
+        data = list(reader)
+        data = list(np.asarray(data[:no_of_entries + header])[:, 1])
+
+    ret_data = np.zeros((no_of_entries, 256))
+
+    for i in range(header, no_of_entries + header):
+        ret_data[i - header, 0: len(data[i].strip(&#39;\&#34;&#39;))] = \
+            string_to_ascii(data[i].strip(&#39;\&#34;&#39;))
+
+    labels = np.ones((no_of_entries, 1)) * labels
+
+    return ret_data, labels
+
+
+def data_preprocessing(import_data, number_of_samples,
+                       mal_data_address, benign_data_address):
+    &#34;&#34;&#34;
+
+    Function that returns the training dataset, the validation dataset as well
+    as the test dataset for model training and evaluation.
+
+    Args:
+        import_data: Contains the import_data function.
+        number_of_samples: Contains the number of data points that have to be
+                           sampled for training.
+        mal_data_address: Contains the data path of malicious domains.
+        benign_data_address: Contains the data path of benign domains.
+
+    Returns:
+        The training dataset, the labels of the training dataset, the validation
+        dataset, the labels of the validation dataset, the test dataset as well
+        as the labels of the test dataset.
+
+    &#34;&#34;&#34;
+
+    ret_data_mal, labels_mal = \
+        import_data(string_to_ascii, mal_data_address, 1, 1, 0,
+                    int(number_of_samples / 2), 0)
+    ret_data_nmal, labels_nmal = \
+        import_data(string_to_ascii, benign_data_address, 0, 1, 1,
+                    int(number_of_samples / 2), 1)
+
+    train_split = int(number_of_samples / 2 * 0.8)
+    valid_split = int(number_of_samples / 2 * 0.9)
+    test_split = int(number_of_samples / 2)
+
+    train_set = np.append(ret_data_mal[0:train_split],
+                          ret_data_nmal[0:train_split], axis=0)
+    train_set = np.reshape(train_set, (train_split * 2, 16, 16, 1))
+    np.random.seed(43)
+    np.random.shuffle(train_set)
+    labels_train_set = np.append(labels_mal[0:train_split],
+                                 labels_nmal[0:train_split], axis=0)
+    np.random.seed(43)
+    np.random.shuffle(labels_train_set)
+
+    valid_set = np.append(ret_data_mal[train_split:valid_split],
+                          ret_data_nmal[train_split:valid_split], axis=0)
+    valid_set = np.reshape(valid_set, ((valid_split - train_split) * 2, 16, 16, 1))
+    np.random.seed(44)
+    np.random.shuffle(valid_set)
+    labels_valid_set = np.append(labels_mal[train_split:valid_split],
+                                 labels_nmal[train_split:valid_split], axis=0)
+    np.random.seed(44)
+    np.random.shuffle(labels_valid_set)
+
+    test_set = np.append(ret_data_mal[valid_split:test_split],
+                         ret_data_nmal[valid_split:test_split], axis=0)
+    test_set = np.reshape(test_set, ((test_split - valid_split) * 2, 16, 16, 1))
+    np.random.seed(45)
+    np.random.shuffle(test_set)
+    labels_test_set = np.append(labels_mal[valid_split:test_split],
+                                labels_nmal[valid_split:test_split], axis=0)
+    np.random.seed(45)
+    np.random.shuffle(labels_test_set)
+
+    print(&#39;Train Shape:&#39;, np.shape(train_set), np.shape(labels_train_set))
+    print(&#39;Validation Shape:&#39;, np.shape(valid_set), np.shape(labels_valid_set))
+    print(&#39;Test Shape:&#39;, np.shape(test_set), np.shape(labels_test_set))
+
+    return train_set, labels_train_set, valid_set, labels_valid_set, test_set, \
+           labels_test_set
+
+
+def model_definition():
+    &#34;&#34;&#34;
+
+    Function that returns a Convolutional Neural Network that classifies whether
+    the domain name is malicious or benign.
+
+    Returns:
+        A Convolutional Neural Network that is a binary classifier that
+        classifies whether a domain name is malicious or benign.
+
+    &#34;&#34;&#34;
+
+    model = models.Sequential(name=&#39;DNS_Alert_Net&#39;)
+    model.add(layers.Conv2D(16, (2, 2), activation=&#39;relu&#39;,
+                            input_shape=(16, 16, 1)))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(16, (2, 2), activation=&#39;relu&#39;))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(8, (2, 2), activation=&#39;relu&#39;))
+    model.add(layers.Flatten())
+    model.add(layers.Dense(8, activation=&#39;relu&#39;))
+    model.add(layers.Dense(1, activation=&#39;sigmoid&#39;))
+    adam_ = tf.keras.optimizers.Adam(lr=0.001)
+    model.compile(loss=&#39;binary_crossentropy&#39;, optimizer=adam_,
+                  metrics=[&#39;accuracy&#39;])
+    return model
+
+
+def training(es, model, model_name, epochs, batch_size, train_set,
+             labels_train_set, validation_set, labels_validation_set):
+    &#34;&#34;&#34;
+
+    Function that return the trained Convolutional Neural Network.
+
+    Args:
+        es: Contains the Elasticsearch object.
+        model: Contains the model as defined by the model_definition function.
+        model_name: Contains the model name.
+        epochs: Contains the number of epochs the model has to be trained for.
+        batch_size: Contains the batch size the model would use while training.
+        train_set: Contains the training dataset.
+        labels_train_set: Contains the labels for the training dataset.
+        validation_set: Contains the data for the validation dataset.
+        labels_validation_set: Contains the labels for the validation dataset.
+
+    Returns:
+        A trained binary classifier for identifying whether a domain is
+        malicious or benign.
+
+    &#34;&#34;&#34;
+
+    for i in range(epochs):
+        history = model.fit(train_set, labels_train_set, batch_size=batch_size,
+                            epochs=1, validation_data=(validation_set,
+                                                       labels_validation_set))
+
+        try:
+            body = es.get(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;],
+                          id=1)[&#39;_source&#39;]
+            body[&#39;training&#39;][&#39;loss&#39;].append(history.history[&#39;loss&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;val_loss&#39;].append(history.history[&#39;val_loss&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;acc&#39;].append(history.history[&#39;acc&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;val_acc&#39;].append(history.history[&#39;val_acc&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;epochs&#39;].append((i + 1))
+
+            update_body = {&#39;doc&#39;:
+                               {&#39;training&#39;:
+                                    {&#39;loss&#39;: (body[&#39;training&#39;][&#39;loss&#39;]),
+                                     &#39;val_loss&#39;: (body[&#39;training&#39;][&#39;val_loss&#39;]),
+                                     &#39;acc&#39;: (body[&#39;training&#39;][&#39;acc&#39;]),
+                                     &#39;val_acc&#39;: (body[&#39;training&#39;][&#39;val_acc&#39;]),
+                                     &#39;epochs&#39;: body[&#39;training&#39;][&#39;epochs&#39;]
+                                     }
+                                }
+                           }
+            es.update(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;],
+                      id=1, body=update_body)
+        except:
+            print(&#39;Please check the Elasticsearch Server&#39;)
+
+    print(&#39;Training Completed&#39;)
+    return model
+
+
+def model_evaluation_metrics(es, model, train_set, labels_train_set, valid_set,
+                             labels_valid_set, test_set, labels_test_set):
+    &#34;&#34;&#34;
+
+    Function that updates the training accuracy graphs as well as loss graphs in
+    the Elasticsearch Database. The function also updates the confusion matrices
+    as well as the confusion metrics of the model, tested on the training,
+    validation as well as testing dataset, in the Elasticsearch Databse.
+
+    Args:
+        es: Contains the Elasticsearch object.
+        model: Contains the trained model.
+        train_set: Contains the training dataset.
+        labels_train_set: Contains the labels for the training dataset.
+        valid_set: Contains the data for the validation dataset.
+        labels_valid_set: Contains the labels for the validation dataset.
+        test_set: Contains the test dataset.
+        labels_test_set: Contains the labels for the test dataset.
+
+    Returns:
+        Not applicable.
+
+    &#34;&#34;&#34;
+
+    loss_train, acc_train = model.evaluate(train_set, labels_train_set)
+    loss_valid, acc_valid = model.evaluate(valid_set, labels_valid_set)
+    loss_test, acc_test = model.evaluate(test_set, labels_test_set)
+
+    y_pred = model.predict(train_set)
+    cf_matrix_train = confusion_matrix(labels_train_set, y_pred.round())
+
+    y_pred = model.predict(valid_set)
+    cf_matrix_valid = confusion_matrix(labels_valid_set, y_pred.round())
+
+    y_pred = model.predict(test_set)
+    cf_matrix_test = confusion_matrix(labels_test_set, y_pred.round())
+
+    acc_train = (cf_matrix_train[0, 0] + cf_matrix_train[1, 1]) / \
+                np.sum(cf_matrix_train)
+    pres_train = (cf_matrix_train[1, 1]) / (cf_matrix_train[1, 1] +
+                                            cf_matrix_train[0, 1])
+    rec_train = (cf_matrix_train[1, 1]) / (cf_matrix_train[1, 1] +
+                                           cf_matrix_train[1, 0])
+    f1_train = 2 * rec_train * pres_train / (rec_train + pres_train)
+
+    acc_valid = (cf_matrix_valid[0, 0] + cf_matrix_valid[1, 1]) / \
+                np.sum(cf_matrix_valid)
+    pres_valid = (cf_matrix_valid[1, 1]) / (cf_matrix_valid[1, 1] +
+                                            cf_matrix_valid[0, 1])
+    rec_valid = (cf_matrix_valid[1, 1]) / (cf_matrix_valid[1, 1] +
+                                           cf_matrix_valid[1, 0])
+    f1_valid = 2 * rec_valid * pres_valid / (rec_valid + pres_valid)
+
+    acc_test = (cf_matrix_test[0, 0] + cf_matrix_test[1, 1]) / \
+               np.sum(cf_matrix_test)
+    pres_test = (cf_matrix_test[1, 1]) / (cf_matrix_test[1, 1] +
+                                          cf_matrix_test[0, 1])
+    rec_test = (cf_matrix_test[1, 1]) / (cf_matrix_test[1, 1] +
+                                         cf_matrix_test[1, 0])
+    f1_test = 2 * rec_test * pres_test / (rec_test + pres_test)
+
+    update_body = {&#39;doc&#39;:
+                       {&#39;metrics&#39;:
+                            {&#39;loss_train&#39;: loss_train, &#39;acc_train&#39;: acc_train,
+                             &#39;loss_valid&#39;: loss_valid, &#39;acc_valid&#39;: acc_valid,
+                             &#39;loss_test&#39;: loss_test, &#39;acc_test&#39;: acc_test,
+                             &#39;cf_matrix_train&#39;: cf_matrix_train, &#39;cf_matrix_valid&#39;: cf_matrix_valid,
+                             &#39;cf_matrix_test&#39;: cf_matrix_test,
+                             &#39;pres_train&#39;: pres_train, &#39;rec_train&#39;: rec_train, &#39;f1_train&#39;: f1_train,
+                             &#39;pres_valid&#39;: pres_valid, &#39;rec_valid&#39;: rec_valid, &#39;f1_valid&#39;: f1_valid,
+                             &#39;pres_test&#39;: pres_test, &#39;rec_test&#39;: rec_test, &#39;f1_test&#39;: f1_test
+
+                             }
+                        }
+                   }
+
+    try:
+        es.update(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;], id=1,
+                  body=update_body)
+    except:
+        print(&#39;Please check the Elasticsearch Server&#39;)
+
+
+if __name__ == &#39;__main__&#39;:
+
+    es = Elasticsearch()
+
+    mal_data_path = &#39;../data/malicious_domains.txt&#39;
+    benign_data_path = &#39;../data/benign_domains.csv&#39;
+
+    train_set, labels_train_set, valid_set, labels_valid_set, test_set, \
+    labels_test_set = data_preprocessing(import_data, 1000,
+                                         mal_data_path, benign_data_path)
+    while True:
+        training_ = es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;training&#39;]
+        if training_:
+            body = {&#39;training&#39;: {&#39;loss&#39;: [], &#39;val_loss&#39;: [], &#39;acc&#39;: [],
+                                 &#39;val_acc&#39;: [], &#39;epochs&#39;: []},
+                    &#39;metrics&#39;: {&#39;loss_train&#39;: 0, &#39;acc_train&#39;: 0, &#39;loss_valid&#39;: 0,
+                                &#39;acc_valid&#39;: 0, &#39;loss_test&#39;: 0, &#39;acc_test&#39;: 0,
+                                &#39;cf_matrix_train&#39;: 0, &#39;cf_matrix_valid&#39;: 0, &#39;cf_matrix_test&#39;: 0,
+                                &#39;pres_train&#39;: 0, &#39;rec_train&#39;: 0, &#39;f1_train&#39;: 0,
+                                &#39;pres_valid&#39;: 0, &#39;rec_valid&#39;: 0, &#39;f1_valid&#39;: 0,
+                                &#39;pres_test&#39;: 0, &#39;rec_test&#39;: 0, &#39;f1_test&#39;: 0}}
+            es.index(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;], id=1, body=body)
+            model = model_definition()
+            trained_model = training(es, model, es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;],
+                                     es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;epochs&#39;],
+                                     es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;batch&#39;],
+                                     train_set, labels_train_set, valid_set, labels_valid_set)
+            model_evaluation_metrics(es, trained_model, train_set, labels_train_set,
+                                     valid_set, labels_valid_set, test_set, labels_test_set)
+            name = es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;]
+            model.save(&#39;../saved_models/&#39; + name + &#39;.hdf5&#39;)
+
+            update_body = {&#39;doc&#39;: {&#39;completed&#39;: 1, &#39;training&#39;: 0}}
+
+            es.update(index=&#39;model&#39;, id=1, body=update_body)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="training.data_preprocessing"><code class="name flex">
+<span>def <span class="ident">data_preprocessing</span></span>(<span>import_data, number_of_samples, mal_data_address, benign_data_address)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that returns the training dataset, the validation dataset as well
+as the test dataset for model training and evaluation.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>import_data</code></strong></dt>
+<dd>Contains the import_data function.</dd>
+<dt><strong><code>number_of_samples</code></strong></dt>
+<dd>Contains the number of data points that have to be
+sampled for training.</dd>
+<dt><strong><code>mal_data_address</code></strong></dt>
+<dd>Contains the data path of malicious domains.</dd>
+<dt><strong><code>benign_data_address</code></strong></dt>
+<dd>Contains the data path of benign domains.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>The training dataset, the labels of the training dataset, the validation
+dataset, the labels of the validation dataset, the test dataset as well
+as the labels of the test dataset.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def data_preprocessing(import_data, number_of_samples,
+                       mal_data_address, benign_data_address):
+    &#34;&#34;&#34;
+
+    Function that returns the training dataset, the validation dataset as well
+    as the test dataset for model training and evaluation.
+
+    Args:
+        import_data: Contains the import_data function.
+        number_of_samples: Contains the number of data points that have to be
+                           sampled for training.
+        mal_data_address: Contains the data path of malicious domains.
+        benign_data_address: Contains the data path of benign domains.
+
+    Returns:
+        The training dataset, the labels of the training dataset, the validation
+        dataset, the labels of the validation dataset, the test dataset as well
+        as the labels of the test dataset.
+
+    &#34;&#34;&#34;
+
+    ret_data_mal, labels_mal = \
+        import_data(string_to_ascii, mal_data_address, 1, 1, 0,
+                    int(number_of_samples / 2), 0)
+    ret_data_nmal, labels_nmal = \
+        import_data(string_to_ascii, benign_data_address, 0, 1, 1,
+                    int(number_of_samples / 2), 1)
+
+    train_split = int(number_of_samples / 2 * 0.8)
+    valid_split = int(number_of_samples / 2 * 0.9)
+    test_split = int(number_of_samples / 2)
+
+    train_set = np.append(ret_data_mal[0:train_split],
+                          ret_data_nmal[0:train_split], axis=0)
+    train_set = np.reshape(train_set, (train_split * 2, 16, 16, 1))
+    np.random.seed(43)
+    np.random.shuffle(train_set)
+    labels_train_set = np.append(labels_mal[0:train_split],
+                                 labels_nmal[0:train_split], axis=0)
+    np.random.seed(43)
+    np.random.shuffle(labels_train_set)
+
+    valid_set = np.append(ret_data_mal[train_split:valid_split],
+                          ret_data_nmal[train_split:valid_split], axis=0)
+    valid_set = np.reshape(valid_set, ((valid_split - train_split) * 2, 16, 16, 1))
+    np.random.seed(44)
+    np.random.shuffle(valid_set)
+    labels_valid_set = np.append(labels_mal[train_split:valid_split],
+                                 labels_nmal[train_split:valid_split], axis=0)
+    np.random.seed(44)
+    np.random.shuffle(labels_valid_set)
+
+    test_set = np.append(ret_data_mal[valid_split:test_split],
+                         ret_data_nmal[valid_split:test_split], axis=0)
+    test_set = np.reshape(test_set, ((test_split - valid_split) * 2, 16, 16, 1))
+    np.random.seed(45)
+    np.random.shuffle(test_set)
+    labels_test_set = np.append(labels_mal[valid_split:test_split],
+                                labels_nmal[valid_split:test_split], axis=0)
+    np.random.seed(45)
+    np.random.shuffle(labels_test_set)
+
+    print(&#39;Train Shape:&#39;, np.shape(train_set), np.shape(labels_train_set))
+    print(&#39;Validation Shape:&#39;, np.shape(valid_set), np.shape(labels_valid_set))
+    print(&#39;Test Shape:&#39;, np.shape(test_set), np.shape(labels_test_set))
+
+    return train_set, labels_train_set, valid_set, labels_valid_set, test_set, \
+           labels_test_set</code></pre>
+</details>
+</dd>
+<dt id="training.import_data"><code class="name flex">
+<span>def <span class="ident">import_data</span></span>(<span>string_to_ascii, data_path, labels, header, lateral_skip, no_of_entries, csv_txt)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that imports data from both CSV files as well as TXT files.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>string_to_ascii</code></strong></dt>
+<dd>Contains the string_to_ascii function.</dd>
+<dt><strong><code>data_path</code></strong></dt>
+<dd>Contains the path of the data to import.</dd>
+<dt><strong><code>labels</code></strong></dt>
+<dd>Contains the labels of the data that has to be imported.</dd>
+<dt><strong><code>header</code></strong></dt>
+<dd>Contains the number of lines to skip from the top.</dd>
+<dt><strong><code>lateral_skip</code></strong></dt>
+<dd>Contains the number of spaces to skip from the left.</dd>
+<dt><strong><code>no_of_entries</code></strong></dt>
+<dd>Contains the number of data entries that have to be
+imported.</dd>
+<dt><strong><code>csv_txt</code></strong></dt>
+<dd>Contains whether the data to be imported is of a CSV file or a
+TXT file.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>The data that has to be imported as well as the labels corresponding to
+the data.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def import_data(string_to_ascii, data_path, labels, header, lateral_skip,
+                no_of_entries, csv_txt):
+    &#34;&#34;&#34;
+
+    Function that imports data from both CSV files as well as TXT files.
+
+    Args:
+        string_to_ascii: Contains the string_to_ascii function.
+        data_path: Contains the path of the data to import.
+        labels: Contains the labels of the data that has to be imported.
+        header: Contains the number of lines to skip from the top.
+        lateral_skip: Contains the number of spaces to skip from the left.
+        no_of_entries: Contains the number of data entries that have to be
+                       imported.
+        csv_txt: Contains whether the data to be imported is of a CSV file or a
+                 TXT file.
+
+    Returns:
+        The data that has to be imported as well as the labels corresponding to
+        the data.
+
+    &#34;&#34;&#34;
+
+    if csv_txt == 0:
+        data = open(data_path, &#34;r&#34;)
+        data = list(data.readlines())
+    else:
+        data = open(data_path, &#39;rt&#39;)
+        reader = csv.reader(data, delimiter=&#39;,&#39;, quoting=csv.QUOTE_NONE)
+        data = list(reader)
+        data = list(np.asarray(data[:no_of_entries + header])[:, 1])
+
+    ret_data = np.zeros((no_of_entries, 256))
+
+    for i in range(header, no_of_entries + header):
+        ret_data[i - header, 0: len(data[i].strip(&#39;\&#34;&#39;))] = \
+            string_to_ascii(data[i].strip(&#39;\&#34;&#39;))
+
+    labels = np.ones((no_of_entries, 1)) * labels
+
+    return ret_data, labels</code></pre>
+</details>
+</dd>
+<dt id="training.model_definition"><code class="name flex">
+<span>def <span class="ident">model_definition</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that returns a Convolutional Neural Network that classifies whether
+the domain name is malicious or benign.</p>
+<h2 id="returns">Returns</h2>
+<p>A Convolutional Neural Network that is a binary classifier that
+classifies whether a domain name is malicious or benign.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def model_definition():
+    &#34;&#34;&#34;
+
+    Function that returns a Convolutional Neural Network that classifies whether
+    the domain name is malicious or benign.
+
+    Returns:
+        A Convolutional Neural Network that is a binary classifier that
+        classifies whether a domain name is malicious or benign.
+
+    &#34;&#34;&#34;
+
+    model = models.Sequential(name=&#39;DNS_Alert_Net&#39;)
+    model.add(layers.Conv2D(16, (2, 2), activation=&#39;relu&#39;,
+                            input_shape=(16, 16, 1)))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(16, (2, 2), activation=&#39;relu&#39;))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(8, (2, 2), activation=&#39;relu&#39;))
+    model.add(layers.Flatten())
+    model.add(layers.Dense(8, activation=&#39;relu&#39;))
+    model.add(layers.Dense(1, activation=&#39;sigmoid&#39;))
+    adam_ = tf.keras.optimizers.Adam(lr=0.001)
+    model.compile(loss=&#39;binary_crossentropy&#39;, optimizer=adam_,
+                  metrics=[&#39;accuracy&#39;])
+    return model</code></pre>
+</details>
+</dd>
+<dt id="training.model_evaluation_metrics"><code class="name flex">
+<span>def <span class="ident">model_evaluation_metrics</span></span>(<span>es, model, train_set, labels_train_set, valid_set, labels_valid_set, test_set, labels_test_set)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that updates the training accuracy graphs as well as loss graphs in
+the Elasticsearch Database. The function also updates the confusion matrices
+as well as the confusion metrics of the model, tested on the training,
+validation as well as testing dataset, in the Elasticsearch Databse.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>es</code></strong></dt>
+<dd>Contains the Elasticsearch object.</dd>
+<dt><strong><code>model</code></strong></dt>
+<dd>Contains the trained model.</dd>
+<dt><strong><code>train_set</code></strong></dt>
+<dd>Contains the training dataset.</dd>
+<dt><strong><code>labels_train_set</code></strong></dt>
+<dd>Contains the labels for the training dataset.</dd>
+<dt><strong><code>valid_set</code></strong></dt>
+<dd>Contains the data for the validation dataset.</dd>
+<dt><strong><code>labels_valid_set</code></strong></dt>
+<dd>Contains the labels for the validation dataset.</dd>
+<dt><strong><code>test_set</code></strong></dt>
+<dd>Contains the test dataset.</dd>
+<dt><strong><code>labels_test_set</code></strong></dt>
+<dd>Contains the labels for the test dataset.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>Not applicable.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def model_evaluation_metrics(es, model, train_set, labels_train_set, valid_set,
+                             labels_valid_set, test_set, labels_test_set):
+    &#34;&#34;&#34;
+
+    Function that updates the training accuracy graphs as well as loss graphs in
+    the Elasticsearch Database. The function also updates the confusion matrices
+    as well as the confusion metrics of the model, tested on the training,
+    validation as well as testing dataset, in the Elasticsearch Databse.
+
+    Args:
+        es: Contains the Elasticsearch object.
+        model: Contains the trained model.
+        train_set: Contains the training dataset.
+        labels_train_set: Contains the labels for the training dataset.
+        valid_set: Contains the data for the validation dataset.
+        labels_valid_set: Contains the labels for the validation dataset.
+        test_set: Contains the test dataset.
+        labels_test_set: Contains the labels for the test dataset.
+
+    Returns:
+        Not applicable.
+
+    &#34;&#34;&#34;
+
+    loss_train, acc_train = model.evaluate(train_set, labels_train_set)
+    loss_valid, acc_valid = model.evaluate(valid_set, labels_valid_set)
+    loss_test, acc_test = model.evaluate(test_set, labels_test_set)
+
+    y_pred = model.predict(train_set)
+    cf_matrix_train = confusion_matrix(labels_train_set, y_pred.round())
+
+    y_pred = model.predict(valid_set)
+    cf_matrix_valid = confusion_matrix(labels_valid_set, y_pred.round())
+
+    y_pred = model.predict(test_set)
+    cf_matrix_test = confusion_matrix(labels_test_set, y_pred.round())
+
+    acc_train = (cf_matrix_train[0, 0] + cf_matrix_train[1, 1]) / \
+                np.sum(cf_matrix_train)
+    pres_train = (cf_matrix_train[1, 1]) / (cf_matrix_train[1, 1] +
+                                            cf_matrix_train[0, 1])
+    rec_train = (cf_matrix_train[1, 1]) / (cf_matrix_train[1, 1] +
+                                           cf_matrix_train[1, 0])
+    f1_train = 2 * rec_train * pres_train / (rec_train + pres_train)
+
+    acc_valid = (cf_matrix_valid[0, 0] + cf_matrix_valid[1, 1]) / \
+                np.sum(cf_matrix_valid)
+    pres_valid = (cf_matrix_valid[1, 1]) / (cf_matrix_valid[1, 1] +
+                                            cf_matrix_valid[0, 1])
+    rec_valid = (cf_matrix_valid[1, 1]) / (cf_matrix_valid[1, 1] +
+                                           cf_matrix_valid[1, 0])
+    f1_valid = 2 * rec_valid * pres_valid / (rec_valid + pres_valid)
+
+    acc_test = (cf_matrix_test[0, 0] + cf_matrix_test[1, 1]) / \
+               np.sum(cf_matrix_test)
+    pres_test = (cf_matrix_test[1, 1]) / (cf_matrix_test[1, 1] +
+                                          cf_matrix_test[0, 1])
+    rec_test = (cf_matrix_test[1, 1]) / (cf_matrix_test[1, 1] +
+                                         cf_matrix_test[1, 0])
+    f1_test = 2 * rec_test * pres_test / (rec_test + pres_test)
+
+    update_body = {&#39;doc&#39;:
+                       {&#39;metrics&#39;:
+                            {&#39;loss_train&#39;: loss_train, &#39;acc_train&#39;: acc_train,
+                             &#39;loss_valid&#39;: loss_valid, &#39;acc_valid&#39;: acc_valid,
+                             &#39;loss_test&#39;: loss_test, &#39;acc_test&#39;: acc_test,
+                             &#39;cf_matrix_train&#39;: cf_matrix_train, &#39;cf_matrix_valid&#39;: cf_matrix_valid,
+                             &#39;cf_matrix_test&#39;: cf_matrix_test,
+                             &#39;pres_train&#39;: pres_train, &#39;rec_train&#39;: rec_train, &#39;f1_train&#39;: f1_train,
+                             &#39;pres_valid&#39;: pres_valid, &#39;rec_valid&#39;: rec_valid, &#39;f1_valid&#39;: f1_valid,
+                             &#39;pres_test&#39;: pres_test, &#39;rec_test&#39;: rec_test, &#39;f1_test&#39;: f1_test
+
+                             }
+                        }
+                   }
+
+    try:
+        es.update(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;], id=1,
+                  body=update_body)
+    except:
+        print(&#39;Please check the Elasticsearch Server&#39;)</code></pre>
+</details>
+</dd>
+<dt id="training.string_to_ascii"><code class="name flex">
+<span>def <span class="ident">string_to_ascii</span></span>(<span>string)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that converts the domain name to an integer array of ASCII values.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>string</code></strong></dt>
+<dd>Contains the Domain Name entered by the user.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>A numpy array of ASCII values corresponding to the characters of the
+Domain Name</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def string_to_ascii(string):
+    &#34;&#34;&#34;
+
+    Function that converts the domain name to an integer array of ASCII values.
+
+    Args:
+        string: Contains the Domain Name entered by the user.
+
+    Returns:
+        A numpy array of ASCII values corresponding to the characters of the
+        Domain Name
+
+    &#34;&#34;&#34;
+
+    ascii_arr = np.zeros(len(string))
+    for i in range(len(string)):
+        ascii_arr[i] = ord(string[i])
+    return ascii_arr</code></pre>
+</details>
+</dd>
+<dt id="training.training"><code class="name flex">
+<span>def <span class="ident">training</span></span>(<span>es, model, model_name, epochs, batch_size, train_set, labels_train_set, validation_set, labels_validation_set)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function that return the trained Convolutional Neural Network.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>es</code></strong></dt>
+<dd>Contains the Elasticsearch object.</dd>
+<dt><strong><code>model</code></strong></dt>
+<dd>Contains the model as defined by the model_definition function.</dd>
+<dt><strong><code>model_name</code></strong></dt>
+<dd>Contains the model name.</dd>
+<dt><strong><code>epochs</code></strong></dt>
+<dd>Contains the number of epochs the model has to be trained for.</dd>
+<dt><strong><code>batch_size</code></strong></dt>
+<dd>Contains the batch size the model would use while training.</dd>
+<dt><strong><code>train_set</code></strong></dt>
+<dd>Contains the training dataset.</dd>
+<dt><strong><code>labels_train_set</code></strong></dt>
+<dd>Contains the labels for the training dataset.</dd>
+<dt><strong><code>validation_set</code></strong></dt>
+<dd>Contains the data for the validation dataset.</dd>
+<dt><strong><code>labels_validation_set</code></strong></dt>
+<dd>Contains the labels for the validation dataset.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>A trained binary classifier for identifying whether a domain is
+malicious or benign.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def training(es, model, model_name, epochs, batch_size, train_set,
+             labels_train_set, validation_set, labels_validation_set):
+    &#34;&#34;&#34;
+
+    Function that return the trained Convolutional Neural Network.
+
+    Args:
+        es: Contains the Elasticsearch object.
+        model: Contains the model as defined by the model_definition function.
+        model_name: Contains the model name.
+        epochs: Contains the number of epochs the model has to be trained for.
+        batch_size: Contains the batch size the model would use while training.
+        train_set: Contains the training dataset.
+        labels_train_set: Contains the labels for the training dataset.
+        validation_set: Contains the data for the validation dataset.
+        labels_validation_set: Contains the labels for the validation dataset.
+
+    Returns:
+        A trained binary classifier for identifying whether a domain is
+        malicious or benign.
+
+    &#34;&#34;&#34;
+
+    for i in range(epochs):
+        history = model.fit(train_set, labels_train_set, batch_size=batch_size,
+                            epochs=1, validation_data=(validation_set,
+                                                       labels_validation_set))
+
+        try:
+            body = es.get(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;],
+                          id=1)[&#39;_source&#39;]
+            body[&#39;training&#39;][&#39;loss&#39;].append(history.history[&#39;loss&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;val_loss&#39;].append(history.history[&#39;val_loss&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;acc&#39;].append(history.history[&#39;acc&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;val_acc&#39;].append(history.history[&#39;val_acc&#39;][0] * 100)
+            body[&#39;training&#39;][&#39;epochs&#39;].append((i + 1))
+
+            update_body = {&#39;doc&#39;:
+                               {&#39;training&#39;:
+                                    {&#39;loss&#39;: (body[&#39;training&#39;][&#39;loss&#39;]),
+                                     &#39;val_loss&#39;: (body[&#39;training&#39;][&#39;val_loss&#39;]),
+                                     &#39;acc&#39;: (body[&#39;training&#39;][&#39;acc&#39;]),
+                                     &#39;val_acc&#39;: (body[&#39;training&#39;][&#39;val_acc&#39;]),
+                                     &#39;epochs&#39;: body[&#39;training&#39;][&#39;epochs&#39;]
+                                     }
+                                }
+                           }
+            es.update(index=es.get(index=&#39;model&#39;, id=1)[&#39;_source&#39;][&#39;name&#39;],
+                      id=1, body=update_body)
+        except:
+            print(&#39;Please check the Elasticsearch Server&#39;)
+
+    print(&#39;Training Completed&#39;)
+    return model</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="training.data_preprocessing" href="#training.data_preprocessing">data_preprocessing</a></code></li>
+<li><code><a title="training.import_data" href="#training.import_data">import_data</a></code></li>
+<li><code><a title="training.model_definition" href="#training.model_definition">model_definition</a></code></li>
+<li><code><a title="training.model_evaluation_metrics" href="#training.model_evaluation_metrics">model_evaluation_metrics</a></code></li>
+<li><code><a title="training.string_to_ascii" href="#training.string_to_ascii">string_to_ascii</a></code></li>
+<li><code><a title="training.training" href="#training.training">training</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.4</a>.</p>
+</footer>
+</body>
+</html>
