@@ -323,6 +323,7 @@ code for each repository:
 
 - <a href="training.html">ML Bridge Machine Learning Module</a>
 - <a href="middleware.html">ML Bridge Middleware</a>
+- <a href="ui.html">ML Bridge User Interface</a>
 
 
 
