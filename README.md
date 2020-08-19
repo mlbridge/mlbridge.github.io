@@ -15,7 +15,7 @@ CoreDNS, to protect people against malicious websites and applications. It helps
 in identifying websites that could be potentially used by malicious hackers and 
 cybercriminals and prevents the user from accessing such websites. 
 
-# Installation Guide
+# Getting Started
 
 The repositories in the ML Bridge organisation require the Elasticsearch Server.
 To install the Elasticsearch Server please follow the instructions that can be 
