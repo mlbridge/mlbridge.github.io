@@ -17,7 +17,16 @@ cybercriminals and prevents the user from accessing such websites.
 
 # Table of Contents
 
-- [Getting Started](#getting-started) 
+- [Getting Started](#getting-started)
+- [Approach](#approach)
+    - [General Overview](#general-overview)
+    - [Machine Learning](#machine-learning)
+- [The inner working of ML Bridge](#the-inner-working-of-ml-bridge)
+    - [ML Bridge Plugin](#ml-bridge-plugin) 
+    - [ML Bridge Middleware](#ml-bridge-middleware)
+    - [ML Bridge User Interface](#ml-bridge-user-interface)
+    - [ML Bridge Machine Learning Module](#ml-bridge-machine-learning-module)
+- [Code Documentation](#code-documentation)
 
 # Getting Started
 
