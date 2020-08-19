@@ -21,11 +21,11 @@ cybercriminals and prevents the user from accessing such websites.
 - [Approach](#approach)
     - [General Overview](#general-overview)
     - [Machine Learning](#machine-learning)
-- [The inner working of ML Bridge](#the-inner-working-of-ml-bridge)
-    - [ML Bridge Plugin](#ml-bridge-plugin) 
-    - [ML Bridge Middleware](#ml-bridge-middleware)
-    - [ML Bridge User Interface](#ml-bridge-user-interface)
-    - [ML Bridge Machine Learning Module](#ml-bridge-machine-learning-module)
+- [The Inner working of ML Bridge](#the-inner-working-of-ml-bridge)
+    - [The ML Bridge Plugin](#ml-bridge-plugin) 
+    - [The ML Bridge Middleware](#ml-bridge-middleware)
+    - [The ML Bridge User Interface](#ml-bridge-user-interface)
+    - [The ML Bridge Machine Learning Module](#ml-bridge-machine-learning-module)
 - [Code Documentation](#code-documentation)
 
 # Getting Started
@@ -167,7 +167,7 @@ trained using batch gradient descent with the Adam optimizer.
   <img src="readme-assets/mlbridge_inner_working_.png"/>
 </p> 
 
-## ML Bridge Plugin
+## The ML Bridge Plugin
 
 The ML Bridge Plugin is a CoreDNS plugin that forwards requests to the 
 ML Bridge Middleware via HTTP POST requests. Once the Middleware processes the 
@@ -176,7 +176,7 @@ benign, to the plugin. Depending on the nature of the domain name, the plugin
 can be configured to allow the request to fall through to the other plugins or 
 send the request to Honeypot or a Blackhole IP.
 
-## ML Bridge Middleware
+## The ML Bridge Middleware
 
 The middleware is a Python Flask Server that contains the pre-trained 
 Convolutional Neural Network.The Middleware receives the domain name queried as 
@@ -209,7 +209,7 @@ date and time of the request are stored in a NoSQL database, namely
 Elasticsearch, due to which storing and querying the classification result and 
 the metadata is a fast process.
 
-## ML Bridge User Interface
+## The ML Bridge User Interface
 
 The ML Bridge User Interface has three main use cases:
 
@@ -317,7 +317,7 @@ the efficacy of the model.
 The efficacy of older pre - trained models can also be observed by selecting the
 load model option and entering the name of a pre - trained model. 
 
-## ML Bridge Machine Learning Module
+## The ML Bridge Machine Learning Module
 
 The ML Bridge Machine Learning Module is a module that uses the information 
 as provided by the user regarding training, in the User Interface, namely the 
