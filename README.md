@@ -237,7 +237,7 @@ a list of all the malicious domains queried which can be seen via a toggle
 switch in the same window. This allows the user to gain a general picture of all
 the malicious domain names queried and also helps in identifying model 
 misclassification. Moreover, the domain names that the model is not confident 
-are highlighted in red.
+about, are highlighted in red.
 
 <p float="left" align = "center">
   <img src="readme-assets/malicious_domains_1.png" width="410" height="300"/>
@@ -250,7 +250,7 @@ a list of all the benign domains queried which can be seen via a toggle
 switch in the same window. This allows the user to gain a general picture of all
 the benign domain names queried and also helps in identifying model 
 misclassification. Moreover, the domain names that the model is not confident 
-are highlighted in red.
+about, are highlighted in red.
 
 <p float="left" align = "center">
   <img src="readme-assets/benign_domains_1.png" width="410" height="300"/>
