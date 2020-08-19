@@ -21,7 +21,7 @@ cybercriminals and prevents the user from accessing such websites.
 - [Approach](#approach)
     - [General Overview](#general-overview)
     - [Machine Learning](#machine-learning)
-- [The Inner working of ML Bridge](#the-inner-working-of-ml-bridge)
+- [The Inner Working of ML Bridge](#the-inner-working-of-ml-bridge)
     - [The ML Bridge Plugin](#ml-bridge-plugin) 
     - [The ML Bridge Middleware](#ml-bridge-middleware)
     - [The ML Bridge User Interface](#ml-bridge-user-interface)
