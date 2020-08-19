@@ -13,7 +13,11 @@ and platforms that generally have a dearth of such capabilities.
 Currently, it is being used to integrate machine learning capabilities with 
 CoreDNS, to protect people against malicious websites and applications. It helps
 in identifying websites that could be potentially used by malicious hackers and 
-cybercriminals and prevents the user from accessing such websites. 
+cybercriminals and prevents the user from accessing such websites.
+
+# Table of Contents
+
+- [Getting Started](#getting-started) 
 
 # Getting Started
 
