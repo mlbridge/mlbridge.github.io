@@ -132,7 +132,7 @@ of the ML Bridge User Interface. The model is then trained according to the
 information entered, and then the results of the training are communicated back 
 to the ML Bridge User Interface. The ML Bridge User Interface then displays the 
 result in the form of accuracy and loss graphs as well as confusion matrices and 
-metrics. The repository got the ML Bridge Machine Learning Module can be found
+metrics. The repository for the ML Bridge Machine Learning Module can be found
 [here](https://github.com/mlbridge/mlbridge-machine-learning). 
 
 ## Machine Learning
@@ -140,10 +140,10 @@ metrics. The repository got the ML Bridge Machine Learning Module can be found
 ### Learning Dataset
 
 The deep-learning model is trained on a COVID-19 Cyber Threat Coalition 
-Blacklist for malicious domains that can be found 
-[here](https://blacklist.cyberthreatcoalition.org/vetted/domain.txt) and on a 
-list of benign domains from DomCop that can be found 
-[here](https://www.domcop.com/top-10-million-domains).
+Blacklist for malicious domains (that can be found 
+[here](https://blacklist.cyberthreatcoalition.org/vetted/domain.txt)) and on a 
+list of benign domains from DomCop (that can be found 
+[here](https://www.domcop.com/top-10-million-domains)).
 
 Currently, the pre-trained model has been trained on the top 500 domain names 
 from both these datasets.
@@ -151,7 +151,7 @@ from both these datasets.
 ### Learning Process
 
 **Data Preprocessing:** Each domain name is converted into a unicode code point 
-representation and then extended to a numpy array of a length 256. The dataset 
+representation and then extended to a NumPy array of a length 256. The dataset 
 was created by combining the malicious domains as well as the non-malicious. 
 The dataset was split as follows:
 - Train Set: 80% of the dataset.
