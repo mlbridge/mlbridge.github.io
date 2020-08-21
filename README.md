@@ -32,7 +32,7 @@ cybercriminals and prevents the user from accessing such websites.
 
 The repositories in the ML Bridge organisation require the Elasticsearch Server.
 To install the Elasticsearch Server please follow the instructions that can be 
-found in this [link](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
+found [here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
 
 For installing each component in the ML Bridge organisation please find the 
 individual installation instructions in each individual repository. The links 
@@ -65,11 +65,11 @@ mlbridge
 ```
 
 To start the ML Bridge software suite, first start the Elasticsearch Server. The
-instructions to start the same can be found in this
-[link](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
+instructions to start the same can be found
+[here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
 
 Next, start the CoreDNS Server. The CoreDNS can be started by following the 
-instructions found in this [link](https://github.com/coredns/coredns).
+instructions found [here](https://github.com/coredns/coredns).
 
 Then, go to the `mlbridge` directory by using the following command:
 
