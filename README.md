@@ -150,7 +150,7 @@ from both these datasets.
 
 ### Learning Process
 
-**Data Preprocessing:** Each domain name is converted into a unicode code point 
+**Data Preprocessing:** Each domain name is converted to a unicode code point 
 representation and then extended to a NumPy array of a length 256. The dataset 
 was created by combining the malicious domains as well as the non-malicious. 
 The dataset was split as follows:
