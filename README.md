@@ -209,7 +209,7 @@ date and time of the request are stored in a NoSQL database, namely
 Elasticsearch, due to which storing and querying the classification result and 
 the metadata is a fast process.
 
-### TensorFlow Model
+### The TensorFlow Model
 
 The default model that is used is a pre-trained Convolutional Neural Net whose 
 input is a (16, 16, 1) shaped array and the output is a single value lying in 
