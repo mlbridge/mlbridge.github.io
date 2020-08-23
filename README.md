@@ -228,6 +228,15 @@ The Convolutional Neural Net can be visualized as follows:
   <img src="readme-assets/model_.png"/>
 </p>
 
+#### The Efficacy of the Trained Convolutional Neural Network
+
+The accuracy for the Training Dataset, the Validation Dataset and Test Dataset 
+is as follows:
+
+| Metric   | Training Dataset | Validation Dataset | Test Dataset |  
+|:----------:|:-------------:|:----------------:|:----------:|
+| Accuracy | 99.25 %     | 98.00 %        | 98.00 %  |
+
 ## The ML Bridge User Interface
 
 The ML Bridge User Interface has three main use cases:
