@@ -218,18 +218,9 @@ considered benign, else it is considered malicious.
 
 The details of the model are as follows:
 
-
-| Layer      | Output Shape          | Activation   | Number of Parameters |
-|:----------:|:---------------------:|:------------:|:--------------------:|
-| Input      | (None, 16, 16, 1 )    | -            |0                     |
-| Conv2D     | (None, 15, 15, 16)    | Relu         |80                    |
-| MaxPooling | (None, 7, 7, 16)      | -            |0                     |
-| Conv2D     | (None, 6, 6, 16)      | Relu         |1040                  |
-| MaxPooling | (None, 3, 3, 16)      | -            |0                     |
-| Conv2D     | (None, 2, 2, 8 )      | Relu         |520                   |
-| Flatten    | (None, 32)            | -            |0                     |
-| Dense      | (None, 8 )            | Relu         |264                   |
-| Dense      | (None, 1 )            | Sigmoid      |9                     |
+<p float="left" align = "center">
+  <img src="readme-assets/model_summary.png"/>
+</p>
 
 The model can be visualized as follows: 
 
