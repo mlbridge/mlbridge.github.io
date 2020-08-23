@@ -229,7 +229,13 @@ The details of the model are as follows:
 | Conv2D     | (None, 2, 2, 8 )      | Relu         |520                   |
 | Flatten    | (None, 32)            | -            |0                     |
 | Dense      | (None, 8 )            | Relu         |264                   |
-| Dense      | (None, 1 )            | Sigmoid      |9                     | 
+| Dense      | (None, 1 )            | Sigmoid      |9                     |
+
+The model can be visualized as follows: 
+
+<p float="left" align = "center">
+  <img src="readme-assets/model_.png"/>
+</p>
 
 ## The ML Bridge User Interface
 
