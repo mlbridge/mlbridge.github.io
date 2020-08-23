@@ -228,7 +228,7 @@ The Convolutional Neural Net can be visualized as follows:
   <img src="readme-assets/model_.png"/>
 </p>
 
-#### The Efficacy of the Trained Convolutional Neural Network
+### The Efficacy of the Trained Convolutional Neural Network
 
 The accuracy for the Training Dataset, the Validation Dataset and Test Dataset 
 is as follows:
