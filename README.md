@@ -216,13 +216,13 @@ input is a (16, 16, 1) shaped array and the output is a single value lying in
 between 0 and 1. If the output value is less than 0.5 the domain name is 
 considered benign, else it is considered malicious.
 
-The details of the model are as follows:
+The details of the Convolutional Neural Net are as follows:
 
 <p float="left" align = "center">
   <img src="readme-assets/model_summary.png"/>
 </p>
 
-The model can be visualized as follows: 
+The Convolutional Neural Net can be visualized as follows: 
 
 <p float="left" align = "center">
   <img src="readme-assets/model_.png"/>
