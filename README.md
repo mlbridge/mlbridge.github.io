@@ -30,9 +30,10 @@ cybercriminals and prevents the user from accessing such websites.
 
 # Getting Started
 
-The repositories in the ML Bridge organisation require the Elasticsearch Server.
-To install the Elasticsearch Server please follow the instructions that can be 
-found [here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
+The repositories in the ML Bridge organisation require the capabilities of the 
+Elasticsearch Server. To install the Elasticsearch Server please follow the 
+instructions that can be found 
+[here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
 
 For installing each component in the ML Bridge organisation please find the 
 individual installation instructions in each individual repository. Else if you 
