@@ -35,8 +35,9 @@ To install the Elasticsearch Server please follow the instructions that can be
 found [here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
 
 For installing each component in the ML Bridge organisation please find the 
-individual installation instructions in each individual repository. The links 
-to the individual repositories can be found below:
+individual installation instructions in each individual repository. Else if you 
+want to install it as an entire software suite, please follow the instructions
+given below. The links to the individual repositories can be found below:
 
 - [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
 - [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
@@ -48,12 +49,6 @@ To install and start CoreDNS please take a look at the CoreDNS
 CoreDNS. To add external plugins, please take a look at the 
 [example plugin](https://github.com/coredns/example).
 
-Create a new directory `mlbridge` by using the following the command:
-
-```
-mkdir mlbridge
-```
-
 The recommended file structure while cloning the repositories can be found 
 below:
 
@@ -62,6 +57,26 @@ mlbridge
    |__ mlbridge-machine-learning 
    |__ mlbridge-middleware
    |__ mlbridge-ui
+```
+
+To create a new `mlbridge` directory and clone the repositories into that 
+directory, please use the following script:
+
+```
+mkdir mlbridge
+cd mlbridge
+git clone https://github.com/mlbridge/mlbridge-machine-learning.git
+git clone https://github.com/mlbridge/mlbridge-middleware.git
+git clone https://github.com/mlbridge/mlbridge-ui.git
+```
+
+To install the required Python dependencies, please use the following script:
+
+```
+cd mlbridge
+pip install -r mlbridge-machine-learning/requirements.txt
+pip install -r mlbridge-middleware/requirements.txt
+pip install -r mlbridge-ui/requirements.txt
 ```
 
 To start the ML Bridge software suite, first start the Elasticsearch Server. The
