@@ -256,12 +256,12 @@ is as follows:
 ### Adding Your Own Model
 
 To add your own model, you can either use the ML Bridge User Interface to train 
-a new model or you can train a model on your own. If you use the ML Bridge User 
-Interface to train the model the model will be saved in the 
-`mlbridge/mlbridge-machine-learning/saved_models` directory. If you would like 
-to create a model of your own then and then train it as you wish, you are free 
-to do so. Once the training is complete please save the model as 
-`your_model_name.hdf5` file in the 
+a new model or you can train a model on your own without the ML Bridge User 
+Interface. If you use the ML Bridge User Interface to train the model the model 
+will be saved in the `mlbridge/mlbridge-machine-learning/saved_models` 
+directory. If you would like to create a model on your own then and then train 
+it as you wish, you are free to do so. Once the training is complete please save 
+the model as:`your_model_name.hdf5` file in the 
 `mlbridge/mlbridge-machine-learning/saved_models` directory. For example: If 
 your model name is new_model, the name of the hdf5 file would be 
 `new_model.hdf5`. Next, go to the 
