@@ -218,6 +218,8 @@ considered benign, else it is considered malicious.
 
 The details of the model are as follows:
 
+<div style="text-align: center;">
+
 | Layer      | Output Shape          | Activation   | Number of Parameters |
 |:----------:|:---------------------:|:------------:|:--------------------:|
 | Input      | (None, 16, 16, 1 )    | -            |0                     |
@@ -229,6 +231,8 @@ The details of the model are as follows:
 | Flatten    | (None, 32)            | -            |0                     |
 | Dense      | (None, 8 )            | Relu         |264                   |
 | Dense      | (None, 1 )            | Sigmoid      |9                     | 
+
+</div>
 
 ## The ML Bridge User Interface
 
