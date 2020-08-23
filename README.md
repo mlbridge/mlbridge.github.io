@@ -356,9 +356,9 @@ The demo of Manual Vetting can be seen below:
   <img src="readme-assets/manual-vetting.gif"/>
 </p>
 
-The user can decide whether to classify a non - vetted domain as a benign 
-domain, or can be classified as a domain that is malicious or can be selected to
-send back Honeypot IP addresses to the malicious domain. 
+The user can decide whether to classify a non-vetted domain as a benign domain, 
+or can be classified as a domain that is malicious or can be selected to send 
+back Honeypot IP addresses to the malicious domain. 
 
 ### Training a new Model or Retraining older Models
 
