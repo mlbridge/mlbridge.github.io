@@ -249,8 +249,8 @@ to do so. Once the training is complete please save the model as
 `mlbridge/mlbridge-machine-learning/saved_models` directory. For example: If 
 your model name is new_model, the name of the hdf5 file would be 
 `new_model.hdf5`. Next, go to the 
-`mlbridge/mlbridge-middleware/mlbridge_middleware/src/middleware.py` and then 
-replace the `dns_alert_model.hdf5` that can be found on this 
+`mlbridge/mlbridge-middleware/mlbridge_middleware/src/middleware.py` file and 
+then replace the `dns_alert_model.hdf5` that can be found on this 
 [line](https://github.com/mlbridge/mlbridge-middleware/blob/10944a32ffd605691c56b89b5c48990abf792bfe/mlbridge_middleware/src/middleware.py#L232)
 with `your_model_name.hdf5`. For example: If your model name is new_model, 
 replace `dns_alert_model.hdf5` with `new_model.hdf5`. Once this is complete, 
