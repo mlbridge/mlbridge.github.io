@@ -36,9 +36,10 @@ instructions that can be found
 [here](https://phoenixnap.com/kb/install-elasticsearch-ubuntu).
 
 For installing each component in the ML Bridge organisation please find the 
-individual installation instructions in each individual repository. Else if you 
-want to install it as an entire software suite, please follow the instructions
-given below. The links to the individual repositories can be found below:
+individual installation instructions in each individual repository. If you 
+would to install the entire ML Bridge Software Suitr, please follow the 
+instructions given below the repository links. The links to the individual 
+repositories can be found below:
 
 - [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
 - [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
