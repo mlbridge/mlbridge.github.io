@@ -120,12 +120,12 @@ of deep learning models.
 This project combines the deep learning capabilities that the Python ecosystem 
 provides, with CoreDNS, by creating:
 
-- **An ML Bridge Plugin (a CoreDNS Plugin):** The plugin intercepts requests and 
+- **The ML Bridge Plugin (a CoreDNS Plugin):** The plugin intercepts requests and 
 forwards them to the Application Middleware for further processing. The 
 repository for the ML Bridge Plugin can be found 
 [here](https://github.com/mlbridge/coredns-mlbridge). 
 
-- **An ML Bridge Middleware:** The middleware receives the request from the ML 
+- **The ML Bridge Middleware:** The middleware receives the request from the ML 
 Bridge Plugin along with other metadata. The middleware infers whether the 
 request is from a malicious or a benign website, from a vetted list. However, if 
 the domain is not in the vetted list, a machine learning model infers whether 
@@ -134,7 +134,7 @@ whether to allow the request or block it. It stores the result as well as other
 metadata to a database. The repository for the ML Bridge Middleware can be 
 found [here](https://github.com/mlbridge/mlbridge-middleware).
 
-- **An ML Bridge User Interface:** The user interface is used to analyse 
+- **The ML Bridge User Interface:** The user interface is used to analyse 
 historical trends as to how many people are accessing malicious websites and at 
 what frequency. It is also used to manually vet websites and classify them as 
 malicious or benign. The user interface is also used to train new machine 
@@ -142,7 +142,7 @@ learning models or retrain existing models by communicating with the ML Bridge
 Machine Learning module. The repository for the ML Bridge User Interface can be 
 found [here](https://github.com/mlbridge/mlbridge-ui).
 
-- **An ML Bridge Machine Learning Module:** The machine learning module is used 
+- **The ML Bridge Machine Learning Module:** The machine learning module is used 
 to train new models or retrain existing ones. The module receives model 
 training information from the details entered by the user in the Training section 
 of the ML Bridge User Interface. The model is then trained according to the 
