@@ -237,6 +237,23 @@ is as follows:
   <img src="readme-assets/training_results.png"/>
 </p>
 
+### Adding Your Own Model
+
+To add your own model, you can either use the ML Bridge User Interface to train 
+a new model or you can train a model on your own. If you use the ML Bridge User 
+Interface to train the model the model will be saved in the 
+`mlbridge/mlbridge-machine-learning/saved_models`. If you would like to create a
+model of your own then and then train it as you wish, you are free to do so. 
+Once the training is complete please save the model as 
+`your_model_name.hdf5` file in the `mlbridge/mlbridge-machine-learning/saved_models`
+directory. For example: If your model name is new_model, the name of the `hdf5` 
+file would be `new_model.hdf5`. Next, go to the 
+`mlbridge/mlbridge-middleware/mlbridge_middleware/src/middleware.py` and then 
+replace the `dns_alert_model.hdf5` that can be found on this 
+[line](https://github.com/mlbridge/mlbridge-middleware/blob/10944a32ffd605691c56b89b5c48990abf792bfe/mlbridge_middleware/src/middleware.py#L232)
+with `your_model_name.hdf5`. For example: If your model name is new_model, 
+replace `dns_alert_model.hdf5` with `new_model.hdf5`.
+
 ## The ML Bridge User Interface
 
 The ML Bridge User Interface has three main use cases:
@@ -340,10 +357,11 @@ The user has the ability to enter the number of epochs, the batch size as well
 as the sample size for the model training. The loss as well as accuracy graphs 
 of the training are updated in real time. Once the training is completed, the 
 confusion matrices as well as confusion metrics can be observed to understand 
-the efficacy of the model. 
+the efficacy of the model. The model will be saved in the 
+`mlbridge/mlbridge-machine-learning/saved_models` directory.
 
-The efficacy of older pre - trained models can also be observed by selecting the
-load model option and entering the name of a pre - trained model. 
+The efficacy of older pre-trained models can also be observed by selecting the
+load model option and entering the name of a pre-trained model. 
 
 ## The ML Bridge Machine Learning Module
 
