@@ -231,46 +231,6 @@ The details of the model are as follows:
 | Dense      | (None, 8 )            | Relu         |264                   |
 | Dense      | (None, 1 )            | Sigmoid      |9                     | 
 
-<div style="text-align: center;">
-
-<table>
-<thead>
-  <tr>
-    <th>Metric</th>
-    <th>Train Set  </th>
-    <th>Validation Set</th>
-    <th>Test Set</th>
-    <th></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Accuracy</td>
-    <td>99.25 %</td>
-    <td>98.00 %</td>
-    <td>98.00 %</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
-
-</div>
-
-
 ## The ML Bridge User Interface
 
 The ML Bridge User Interface has three main use cases:
