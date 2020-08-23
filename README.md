@@ -233,9 +233,9 @@ The Convolutional Neural Net can be visualized as follows:
 The accuracy for the Training Dataset, the Validation Dataset and Test Dataset 
 is as follows:
 
-| Metric   | Training Dataset | Validation Dataset | Test Dataset |  
-|:----------:|:-------------:|:----------------:|:----------:|
-| Accuracy | 99.25 %     | 98.00 %        | 98.00 %  |
+<p float="left" align = "center">
+  <img src="readme-assets/training_results.png"/>
+</p>
 
 ## The ML Bridge User Interface
 
