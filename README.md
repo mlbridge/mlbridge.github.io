@@ -37,9 +37,9 @@ instructions that can be found
 
 For installing each component in the ML Bridge organisation please find the 
 individual installation instructions in each individual repository. If you 
-would to install the entire ML Bridge Software Suitr, please follow the 
-instructions given below the repository links. The links to the individual 
-repositories can be found below:
+would to install the entire ML Bridge Software Suite, please follow the 
+instructions given below the repository links. The links each individual 
+repository can be found below:
 
 - [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
 - [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
