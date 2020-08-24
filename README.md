@@ -153,7 +153,9 @@ metrics. The repository for the ML Bridge Machine Learning Module can be found
 
 - **The Elasticsearch Server:** The Elasticsearch Server acts as a communication
 channel between the different components of the ML Bridge Organisation. It is 
-also used to store data locally, as and when required. 
+also used to store data locally, as and when required. To know more about the 
+capabilities of the Elasticseach Server, please click 
+[here](https://www.elastic.co/elasticsearch/). 
 
 ## Machine Learning
 
