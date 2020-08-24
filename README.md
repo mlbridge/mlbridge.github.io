@@ -124,8 +124,8 @@ forwards them to the Application Middleware for further processing. The
 repository for the ML Bridge Plugin can be found 
 [here](https://github.com/mlbridge/coredns-mlbridge). 
 
-- **The ML Bridge Middleware:** The middleware receives the request from the ML 
-Bridge Plugin along with other metadata. The middleware infers whether the 
+- **The ML Bridge Middleware:** The Middleware receives the request from the ML 
+Bridge Plugin along with other metadata. The Middleware infers whether the 
 request is from a malicious or a benign website, from a vetted list. However, if 
 the domain is not in the vetted list, a machine learning model infers whether 
 the request is malicious or benign, and then sends back a response to the plugin
