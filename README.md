@@ -149,7 +149,11 @@ information entered, and then the results of the training are communicated back
 to the ML Bridge User Interface. The ML Bridge User Interface then displays the 
 result in the form of accuracy and loss graphs as well as confusion matrices and 
 metrics. The repository for the ML Bridge Machine Learning Module can be found
-[here](https://github.com/mlbridge/mlbridge-machine-learning). 
+[here](https://github.com/mlbridge/mlbridge-machine-learning).
+
+- **The Elasticsearch Server:** The Elasticsearch Server acts as a communication
+channel between the different components of the ML Bridge Organisation. It is 
+also used to store data locally, as and when required. 
 
 ## Machine Learning
 
