@@ -194,7 +194,7 @@ send the request to Honeypot or a Blackhole IP.
 
 ## The ML Bridge Middleware
 
-The middleware is a Python Flask Server that contains the pre-trained 
+The Middleware is a Python Flask Server that contains the pre-trained 
 Convolutional Neural Network.The Middleware receives the domain name queried as 
 well as the IP address of the machine used to query that particular domain name, 
 as a JSON message, via HTTP POST requests from the ML Bridge Plugin.
