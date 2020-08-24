@@ -8,7 +8,7 @@ The ML Bridge organisation provides machine learning capabilities to languages
 and platforms that generally have a dearth of such capabilities. Moreover, one 
 of the best features is that the components of the ML Bridge organisation are 
 fully customizable, they can be tailored to fit the needs of any other project 
-or product. 
+or organisation. 
 
 Currently, it is being used to integrate machine learning capabilities with 
 CoreDNS, to protect people against malicious websites and applications. It helps
