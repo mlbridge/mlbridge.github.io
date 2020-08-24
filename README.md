@@ -8,7 +8,9 @@ This organisation is the result of my work on a project during Google Summer of
 Code 2020, as a part of the Cloud Native Computing Foundation.
 
 The ML Bridge organisation provides machine learning capabilities to languages 
-and platforms that generally have a dearth of such capabilities. 
+and platforms that generally have a dearth of such capabilities. Moreover, one 
+of the best features is that it is fully customizable. It can be tailored to fit
+the needs of any other project or organisation.  
 
 Currently, it is being used to integrate machine learning capabilities with 
 CoreDNS, to protect people against malicious websites and applications. It helps
