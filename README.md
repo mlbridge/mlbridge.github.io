@@ -155,7 +155,7 @@ metrics. The repository for the ML Bridge Machine Learning Module can be found
 channel between the different components of the ML Bridge Organisation. It is 
 also used to store data locally, as and when required. To know more about the 
 capabilities of the Elasticseach Server, please click 
-[here](https://www.elastic.co/elasticsearch/). 
+[here](https://www.elastic.co/what-is/elasticsearch). 
 
 ## Machine Learning
 
@@ -398,6 +398,21 @@ confusion metrics. A separate module such as the ML Bridge Machine Learning
 Module is used so that the training can be done parallelly while the user can
 use the User Interface for other purposes without having to wait for the 
 training to complete. 
+
+## The Elasticsearch Server
+
+Elasticsearch is a NoSQL distributed database where the data is stored in a 
+manner that the data retrieval is quick. That makes it an ideal choice for 
+communicating between four different ML Bridhe components running parallelly. 
+Each component dumps data into the Elasticsearch Database, which then can be 
+retrieved by other components and then depending on the data, different actions 
+can be taken by each component. Hence, it acts as an ideal communication 
+channel. Moreover, it also helps in storing data that can be retrieved at a 
+later time or date. For example, the model efficacy data continues to remain in 
+the Elasticsearch Database (until the model is retrained, then the value gets 
+updated). This helps in retrieving the model efficacy of a previously trained 
+model, and helps in comparing the same with a newly trained model, and therefore
+changes in the results due to a change in the models can easily be identified.
 
 # Code Documentation
 
