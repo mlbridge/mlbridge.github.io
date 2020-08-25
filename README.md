@@ -1,3 +1,7 @@
+<p float="left" align = "center">
+  <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
+</p>
+
 # Overview
 
 The ML Bridge organisation provides machine learning capabilities to languages 
