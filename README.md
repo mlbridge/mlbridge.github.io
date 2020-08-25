@@ -5,9 +5,9 @@
 This organisation was built with ❤️ by 
 <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, as a 
 part of the Cloud Native Computing Foundation during Google Summer of Code 2020, 
-with lots of amazing support from some of the best mentors in the world, 
+with lots of amazing support from two of the best mentors in the world, 
 <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and 
-<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> 😄.
+<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a>.
 
 # Overview
 
