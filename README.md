@@ -1,10 +1,6 @@
-<p float="left" align = "center" margin-bottom="1rem">
+<p float="left" align = "center" margin-bottom="100px">
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
-
-<p>
-    
-</p>>
 
 This organisation was built with ❤️ by 
 <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, as a 
