@@ -2,8 +2,6 @@
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
-# About
-
 This organisation was built with ❤️ by 
 <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, (a 
 Google Summer of Code Student Developer, 2020), as a part of the Cloud Native 
