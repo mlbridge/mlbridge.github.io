@@ -2,6 +2,8 @@
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
+<br>
+
 This organisation was built with ❤️ by 
 <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, as a 
 part of the Cloud Native Computing Foundation during Google Summer of Code 2020, 
