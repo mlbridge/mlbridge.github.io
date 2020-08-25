@@ -2,8 +2,6 @@
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
-<br>
-
 <p float="left" align = "center">
     Made with ❤️ by 
     <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, 
@@ -12,7 +10,6 @@
     <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
     <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> 😄
 </p>
-
 
 # Overview
 
