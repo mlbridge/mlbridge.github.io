@@ -2,6 +2,16 @@
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
+<p float="left" align = "center">
+Made with ❤️ by 
+<a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, with 
+lots of amazing support from some of the best mentors in the world,
+<a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
+<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> &#128516.
+This organisation is the result of my work during Google Summer of
+Code 2020, as a part of the Cloud Native Computing Foundation.
+</p>
+
 # Overview
 
 The ML Bridge organisation provides machine learning capabilities to languages 
