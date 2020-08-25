@@ -5,8 +5,7 @@
 <p float="left" align = "center">
     Made with ❤️ by 
     <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, 
-    with lots of <br> amazing support from some of the best mentors in the 
-    world, <br>
+    <br> with lots of amazing support and mentorship from
     <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
     <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> 😄
 </p>
