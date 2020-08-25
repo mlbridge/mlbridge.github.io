@@ -3,12 +3,16 @@
 </p>
 
 <p float="left" align = "center">
-Made with ❤️ by 
-<a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, with 
-lots of amazing support from some of the best mentors in the world,
-<a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
-<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> :smile:.
+    Made with ❤️ by 
+    <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, 
+    with lots of amazing support from 
 </p>
+<p float="left" align = "center">
+    some of the best mentors in the world,
+    <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
+    <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> :smile:
+</p>
+
 
 # Overview
 
