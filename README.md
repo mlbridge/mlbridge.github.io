@@ -2,12 +2,13 @@
   <img src="readme-assets/ML_Bridge_Logo.png" width="500"/>
 </p>
 
-->Made with ❤️ by 
-<a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, 
-with lots of amazing support from<-
-->some of the best mentors in the world,
-<a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
-<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> &#128516<-
+<p float="left" align = "center">
+    Made with ❤️ by 
+    <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, 
+    with lots of amazing support from<br> some of the best mentors in the world,
+    <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
+    <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> &#128516
+</p>
 
 
 # Overview
