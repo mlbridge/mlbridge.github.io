@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
 name: ML Bridge
 title: null
+plugins:
+  - jemoji
 # description: Combining Machine Learning and Cybersecurity.
