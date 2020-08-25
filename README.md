@@ -203,11 +203,11 @@ send the request to Honeypot or a Blackhole IP.
 ## The ML Bridge Middleware
 
 The Middleware is a Python Flask Server that contains the pre-trained 
-Convolutional Neural Network.The Middleware receives the domain name queried as 
+Convolutional Neural Network. The Middleware receives the domain name queried as 
 well as the IP address of the machine used to query that particular domain name, 
 as a JSON message, via HTTP POST requests from the ML Bridge Plugin.
 
-The Middleware first preprocessess the request forwarded from the 
+The Middleware first preprocesses the request forwarded from the 
 Machine Learning Plugin. The preprocessed request is then cross checked against 
 manually vetted lists. If the request is of a benign domain, a response is 
 sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
@@ -215,7 +215,7 @@ If the request is of a malicious domain, a response is sent back to the ML
 Bridge Plugin that prevents the fallthrough to other plugins. Moreover, the ML 
 Bridge Plugin sends back a Honeypot or a Blackhole IP to the user querying the 
 malicious domain. If the domain does not exist in the manually vetted list, the 
-preprocesssed request is then sent to the machine learning model where it infers 
+preprocessed request is then sent to the machine learning model where it infers 
 whether it is benign or malicious.
 
 If the machine learning model is highly confident that the request is of a
@@ -228,8 +228,8 @@ the model is not confident about its prediction, then a response is sent back
 to the ML Bridge Plugin that allows the fallthrough to other plugins. However,
 the domain name is stored in the database for manual vetting. 
 
-The classification result as well as other metadata such as the IP address, the 
-date and time of the request are stored in a NoSQL database, namely 
+The classification result as well, as other metadata such as the IP address, the 
+date and time of the request, are stored in a NoSQL database, namely 
 Elasticsearch, due to which storing and querying the classification result and 
 the metadata is a fast process.
 
@@ -265,11 +265,11 @@ is as follows:
 
 To add your own model, you can either use the ML Bridge User Interface to train 
 a new model or you can train a model on your own without the ML Bridge User 
-Interface. If you use the ML Bridge User Interface to train the model the model 
-will be saved in the `mlbridge/mlbridge-machine-learning/saved_models` 
-directory. If you would like to create a model on your own then and then train 
-it as you wish, you are free to do so. Once the training is complete please save 
-the model as: `your_model_name.hdf5` file in the 
+Interface. If you use the ML Bridge User Interface to train the model will be 
+saved in the `mlbridge/mlbridge-machine-learning/saved_models` directory. If you
+would like to create a model on your own then and then train it as you wish, you
+are free to do so. Once the training is complete please save the model as: 
+`your_model_name.hdf5` file in the 
 `mlbridge/mlbridge-machine-learning/saved_models` directory. For example: If 
 your model name is new_model, the name of the hdf5 file would be 
 `new_model.hdf5`. Next, go to the 
@@ -341,10 +341,10 @@ about, are highlighted in red.
   <img src="readme-assets/benign_domains_2.png" width="410" height="300"/>
 </p>
 
-- **WhoIS Information:** The user interface enables the user to access the the
-WhoIS records of the domain name. This allows the user to understand more 
-information regarding the request queried, thereby enabling the user to make a 
-well informed decision while vetting domain names. 
+- **WhoIS Information:** The user interface enables the user to access the WhoIS
+records of the domain name. This allows the user to understand more information 
+regarding the request queried, thereby enabling the user to make a well informed 
+decision while vetting domain names. 
 
 <p float="left" align = "center">
   <img src="readme-assets/who_is_domains.png" width="410" height="300"/>
@@ -352,8 +352,8 @@ well informed decision while vetting domain names.
 
 ### Manual Vetting
 
-Manual Vetting allows the user to manually vet domain names that the model has a 
-low confidence on, thereby creating a new dataset of malicious or benign 
+Manual Vetting allows the user to manually vet domain names that the model has
+low confidence in, thereby creating a new dataset of malicious or benign 
 domains. This dataset can be used for blocking or allowing domains and also for 
 updating the dataset for retraining the model.
 
@@ -404,10 +404,10 @@ training to complete.
 ## The Elasticsearch Server
 
 Elasticsearch is a NoSQL distributed database where the data is stored in a 
-manner that the data retrieval is quick. That makes it an ideal choice for 
+manner that data retrieval is quick. That makes it an ideal choice for 
 communicating between four different ML Bridge components running parallelly. 
 Each component dumps data into the Elasticsearch Database, which then can be 
-retrieved by other components and then depending on the data, different actions 
+retrieved by other components, and then depending on the data, different actions 
 can be taken by each component. Hence, it acts as an ideal communication 
 channel. Moreover, it also helps in storing data that can be retrieved at a 
 later time or date. For example, the model efficacy data continues to remain in 
