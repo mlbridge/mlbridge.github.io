@@ -7,7 +7,7 @@
     <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>,
     with lots of amazing support from
     <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
-    <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a>
+    <a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a>.
 </p>
 
 # Overview
