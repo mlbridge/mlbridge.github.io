@@ -7,9 +7,7 @@ Made with ❤️ by
 <a href="https://www.linkedin.com/in/chanakyaekbote/">Chanakya Ekbote</a>, with 
 lots of amazing support from some of the best mentors in the world,
 <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and
-<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> &#128516.
-This organisation is the result of my work during Google Summer of
-Code 2020, as a part of the Cloud Native Computing Foundation.
+<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> :smile:.
 </p>
 
 # Overview
