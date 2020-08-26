@@ -35,6 +35,7 @@ cybercriminals and prevents the user from accessing such websites.
     - [The ML Bridge User Interface](#ml-bridge-user-interface)
     - [The ML Bridge Machine Learning Module](#ml-bridge-machine-learning-module)
     - [The Elasticsearch Server](#the-elasticsearch-server)
+- [Important Links](#important-links)
 - [Code Documentation](#code-documentation)
 
 # Getting Started
@@ -206,14 +207,14 @@ ML Bridge Middleware via HTTP POST requests. Once the Middleware processes the
 request, it sends back the prediction, whether the domain name is malicious or 
 benign, to the plugin. Depending on the nature of the domain name, the plugin 
 can be configured to allow the request to fall through to the other plugins or 
-send the request to Honeypot or a Blackhole IP.
+send the request to Honeypot or a Blackhole IP addresses.
 
 ## The ML Bridge Middleware
 
 The Middleware is a Python Flask Server that contains the pre-trained 
 Convolutional Neural Network. The Middleware receives the domain name queried as 
-well as the IP address of the machine used to query that particular domain name, 
-as a JSON message, via HTTP POST requests from the ML Bridge Plugin.
+well as the IP addresses of the machine used to query that particular domain 
+name, as a JSON message, via HTTP POST requests from the ML Bridge Plugin.
 
 The Middleware first preprocesses the request forwarded from the 
 Machine Learning Plugin. The preprocessed request is then cross checked against 
@@ -221,23 +222,23 @@ manually vetted lists. If the request is of a benign domain, a response is
 sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
 If the request is of a malicious domain, a response is sent back to the ML 
 Bridge Plugin that prevents the fallthrough to other plugins. Moreover, the ML 
-Bridge Plugin sends back a Honeypot or a Blackhole IP to the user querying the 
-malicious domain. If the domain does not exist in the manually vetted list, the 
-preprocessed request is then sent to the machine learning model where it infers 
-whether it is benign or malicious.
+Bridge Plugin sends back a Honeypot or a Blackhole IP addresses to the user 
+querying the malicious domain. If the domain does not exist in the manually 
+vetted list, the preprocessed request is then sent to the machine learning model 
+where it infers whether it is benign or malicious.
 
 If the machine learning model is highly confident that the request is of a
 benign domain, then a response is sent back to the ML Bridge Plugin that allows 
 the fallthrough to other plugins. If the model is highly confident that the 
 domain name is malicious, a response is sent back to the ML Bridge Plugin that 
 prevents the fallthrough to other plugins. Moreover, the ML Bridge Plugin sends 
-back a Honeypot or a Blackhole IP to the user querying the malicious domain. If 
-the model is not confident about its prediction, then a response is sent back 
-to the ML Bridge Plugin that allows the fallthrough to other plugins. However,
-the domain name is stored in the database for manual vetting. 
+back a Honeypot or a Blackhole IP addresses to the user querying the malicious 
+domain. If the model is not confident about its prediction, then a response is 
+sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
+However,the domain name is stored in the database for manual vetting. 
 
-The classification result as well, as other metadata such as the IP address, the 
-date and time of the request, are stored in a NoSQL database, namely 
+The classification result as well, as other metadata such as the IP addresses, 
+the date and time of the request, are stored in a NoSQL database, namely 
 Elasticsearch, due to which storing and querying the classification result and 
 the metadata is a fast process.
 
@@ -426,7 +427,7 @@ changes in the results due to a change in the models can easily be identified.
 
 # Important Links
 
-The link to the GitHub Repositories are as follows:
+The link to the individual GitHub Repositories are as follows:
 
 - [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
 - [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
