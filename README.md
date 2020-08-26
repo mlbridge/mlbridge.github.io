@@ -37,6 +37,7 @@ cybercriminals and prevents the user from accessing such websites.
     - [The Elasticsearch Server](#the-elasticsearch-server)
 - [Important Links](#important-links)
 - [Code Documentation](#code-documentation)
+- [Contributing to the ML Bridge Organisation](#contributing-to-the-ml-bridge-organisation)
 
 # Getting Started
 
@@ -442,6 +443,36 @@ code for each repository:
 - <a href="training.html">ML Bridge Machine Learning Module</a>
 - <a href="middleware.html">ML Bridge Middleware</a>
 - <a href="ui.html">ML Bridge User Interface</a>
+
+# Contributing to the ML Bridge Organisation
+
+There are two main aspects of the ML Bridge Software Suite that we think need 
+improvements:
+
+- **Improving the ML Bridge Software Suite:** Currently, customising the ML Bridge 
+Software Suite to fit ones needs is not a very easy task. Hence, we would like 
+to improve the overall code base to allow the users of the ML Bridge Software 
+Suite to be able to customise it in a much easier fashion. 
+
+- **Improving the Domain Name Cybersecurity Project:** There a few areas that, 
+we think, can be improved upon in the Domain Name Cybersecurity Project:
+    - **Improving The Machine Learning Module:** The Machine Learning Module can 
+    be improved by using a larger dataset, or improving the overall machine 
+    learning model.  
+    - **Adding Better Models to Make the CoreDNS Server More Secure:** Models 
+    such as the 
+    [Homograph Detection Model](https://aws.amazon.com/blogs/machine-learning/infoblox-inc-built-a-patent-pending-homograph-attack-detection-model-for-dns-with-amazon-sagemaker/)
+    can also be added to add an extra layer of security to the CoreDNS Server.
+    - **Improving the User Interface:** Any improvements to the ML Bridge User 
+    Interface, be it addition of new widgets to the User Interface or creating 
+    a desktop application using [Electron](https://www.electronjs.org/) is more 
+    than welcome.
+    
+If you'd like to contribute to the ML Bridge Organisation with respect to the 
+ideas listed above (or any idea for that matter), please raise an issue in the 
+[mlbridge.github.io repository](https://github.com/mlbridge/mlbridge.github.io).
+We'd love to discuss the improvements you have in mind. 
+
 
 
 
