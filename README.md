@@ -427,7 +427,7 @@ changes in the results due to a change in the models can easily be identified.
 
 # Important Links
 
-The link to the individual GitHub Repositories are as follows:
+The links to the individual GitHub Repositories are as follows:
 
 - [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
 - [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
