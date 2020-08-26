@@ -456,14 +456,14 @@ Suite to be able to customise it in a much easier fashion.
 
 - **Improving the Domain Name Cybersecurity Project:** There a few areas that, 
 we think, can be improved upon in the Domain Name Cybersecurity Project:
-    - Improving The Machine Learning Module: The Machine Learning Module can be 
-    improved by using a larger dataset, or improving the overall machine 
+    - **Improving The Machine Learning Module:** The Machine Learning Module can 
+    be improved by using a larger dataset, or improving the overall machine 
     learning model.  
-    - Adding Other Models to Make the CoreDNS Server More Secure: Models such as 
-    the 
+    - **Adding Other Models to Make the CoreDNS Server More Secure:** Models 
+    such as the 
     [Homograph Detection Model](https://aws.amazon.com/blogs/machine-learning/infoblox-inc-built-a-patent-pending-homograph-attack-detection-model-for-dns-with-amazon-sagemaker/)
     can also be added to add an extra layer of security to the CoreDNS Server.
-    - Improving the User Interface: Any improvements to the ML Bridge User 
+    - **Improving the User Interface:** Any improvements to the ML Bridge User 
     Interface, be it addition of new widgets to the User Interface or creating 
     a desktop application using [Electron](https://www.electronjs.org/) is more 
     than welcome.
