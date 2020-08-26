@@ -424,6 +424,15 @@ updated). This helps in retrieving the model efficacy of a previously trained
 model, and helps in comparing the same with a newly trained model, and therefore
 changes in the results due to a change in the models can easily be identified.
 
+# Important Links
+
+The link to the GitHub Repositories are as follows:
+
+- [The ML Bridge Plugin (A CoreDNS Plugin)](https://github.com/mlbridge/coredns-mlbridge)
+- [The ML Bridge Middleware](https://github.com/mlbridge/mlbridge-middleware)
+- [The ML Bridge User Interface](https://github.com/mlbridge/mlbridge-ui)
+- [The ML Bridge Machine Learning Module](https://github.com/mlbridge/mlbridge-machine-learning)
+
 # Code Documentation
 
 Please click on the individual links to obtain the documentation regarding the 
@@ -432,6 +441,8 @@ code for each repository:
 - <a href="training.html">ML Bridge Machine Learning Module</a>
 - <a href="middleware.html">ML Bridge Middleware</a>
 - <a href="ui.html">ML Bridge User Interface</a>
+
+
 
 
 
