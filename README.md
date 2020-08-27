@@ -465,13 +465,28 @@ we think, can be improved upon in the Domain Name Cybersecurity Project:
     can also be added to add an extra layer of security to the CoreDNS Server.
     - **Improving the User Interface:** Any improvements to the ML Bridge User 
     Interface, be it addition of new widgets to the User Interface or creating 
-    a desktop application using [Electron](https://www.electronjs.org/) is more 
+    a desktop application using [Electron](https://www.electronjs.org/), is more 
     than welcome.
     
 If you'd like to contribute to the ML Bridge Organisation with respect to the 
 ideas listed above (or any idea for that matter), please raise an issue in the 
 [mlbridge.github.io repository](https://github.com/mlbridge/mlbridge.github.io).
-We'd love to discuss the improvements you have in mind. 
+We'd love to discuss any improvements you have in mind. 
+
+# Acknowledgements
+
+I would like to thank my mentors 
+<a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and 
+<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> for the 
+continuous support and guidance throughout this amazing Google Summer of Code 
+journey. They always ensured that all my doubts were cleared, helped me in identifying 
+relevant issues and finding solutions for those problems, through extensive 
+discussions. This journey would not have been possible without them. I would 
+also like to thank Cloud Native Foundation (CNCF) as well as Google for 
+providing me with this wonderful opportunity. I hope that both CNCF as well as 
+Google through their respective student developer programs, continue to inspire 
+many more developers for years to come and hope that their journey will be as 
+memorable as mine 😄. 
 
 
 
