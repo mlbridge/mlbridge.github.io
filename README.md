@@ -478,7 +478,7 @@ We'd love to discuss any improvements you have in mind.
 
 I would like to thank my mentors 
 <a href="https://www.linkedin.com/in/greenpau/">Paul Greenberg</a> and 
-<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> for the 
+<a href="https://www.linkedin.com/in/yong-tang/">Yong Tang</a> for their 
 continuous support and guidance throughout this amazing Google Summer of Code 
 journey. They always ensured that all my doubts were cleared, helped me in identifying 
 relevant issues and finding solutions for those problems, through extensive 
