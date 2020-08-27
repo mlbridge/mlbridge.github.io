@@ -38,6 +38,7 @@ cybercriminals and prevents the user from accessing such websites.
 - [Important Links](#important-links)
 - [Code Documentation](#code-documentation)
 - [Contributing to the ML Bridge Organisation](#contributing-to-the-ml-bridge-organisation)
+- [Acknowledgements](#acknowledgements)
 
 # Getting Started
 
