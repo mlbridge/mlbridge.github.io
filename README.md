@@ -415,7 +415,7 @@ training to complete.
 ## The Elasticsearch Server
 
 <p float="left" align = "center">
-  <img src="readme-assets/elasticsearch.png" width="410" height="300"/>
+  <img src="readme-assets/elasticsearch.png" width="400"/>
 </p>
 
 Elasticsearch is a NoSQL distributed database where the data is stored in a 
