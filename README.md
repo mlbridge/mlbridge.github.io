@@ -421,6 +421,11 @@ training to complete.
 Elasticsearch is a NoSQL distributed database where the data is stored in a 
 manner that data retrieval is quick. That makes it an ideal choice for 
 communicating between four different ML Bridge components running parallelly. 
+
+<p float="left" align = "center">
+  <img src="readme-assets/elasticsearch.png" width="500"/>
+</p>
+
 Each component dumps data into the Elasticsearch Database, which then can be 
 retrieved by other components, and then depending on the data, different actions 
 can be taken by each component. Hence, it acts as an ideal communication 
