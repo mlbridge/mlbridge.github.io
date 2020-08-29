@@ -414,10 +414,6 @@ training to complete.
 
 ## The Elasticsearch Server
 
-<p float="left" align = "center">
-  <img src="readme-assets/elasticsearch.png" width="400"/>
-</p>
-
 Elasticsearch is a NoSQL distributed database where the data is stored in a 
 manner that data retrieval is quick. That makes it an ideal choice for 
 communicating between four different ML Bridge components running parallelly. 
