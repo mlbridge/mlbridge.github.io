@@ -209,7 +209,7 @@ ML Bridge Middleware via HTTP POST requests. Once the Middleware processes the
 request, it sends back the prediction, whether the domain name is malicious or 
 benign, to the plugin. Depending on the nature of the domain name, the plugin 
 can be configured to allow the request to fall through to the other plugins or 
-send the request to Honeypot or a Blackhole IP addresses.
+send the request to Honeypot or Blackhole IP addresses.
 
 ## The ML Bridge Middleware
 
@@ -224,7 +224,7 @@ manually vetted lists. If the request is of a benign domain, a response is
 sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
 If the request is of a malicious domain, a response is sent back to the ML 
 Bridge Plugin that prevents the fallthrough to other plugins. Moreover, the ML 
-Bridge Plugin sends back a Honeypot or a Blackhole IP addresses to the user 
+Bridge Plugin sends back Honeypot or Blackhole IP addresses to the user 
 querying the malicious domain. If the domain does not exist in the manually 
 vetted list, the preprocessed request is then sent to the machine learning model 
 where it infers whether it is benign or malicious.
@@ -234,7 +234,7 @@ benign domain, then a response is sent back to the ML Bridge Plugin that allows
 the fallthrough to other plugins. If the model is highly confident that the 
 domain name is malicious, a response is sent back to the ML Bridge Plugin that 
 prevents the fallthrough to other plugins. Moreover, the ML Bridge Plugin sends 
-back a Honeypot or a Blackhole IP addresses to the user querying the malicious 
+back Honeypot or Blackhole IP addresses to the user querying the malicious 
 domain. If the model is not confident about its prediction, then a response is 
 sent back to the ML Bridge Plugin that allows the fallthrough to other plugins. 
 However,the domain name is stored in the database for manual vetting. 
