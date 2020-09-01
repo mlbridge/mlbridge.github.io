@@ -488,12 +488,14 @@ continuous support and guidance throughout this amazing Google Summer of Code
 journey. They always ensured that all my doubts were cleared, helped me in identifying 
 relevant issues and finding solutions for those problems, through extensive 
 discussions. This journey would not have been possible without them. I would 
-also like to thank [Cloud Native Foundation (CNCF)](https://www.cncf.io/) as 
-well as [Google](https://summerofcode.withgoogle.com/) for providing me with 
-this wonderful opportunity. I hope that both CNCF as well as Google through 
-their respective student developer programs, continue to inspire many more 
-developers for years to come and hope that their journey will be as memorable as 
-mine 😄. 
+like to thank all the essential workers who are working tirelessly throughout 
+this COVID-19 crisis. This project would surely have not been possible without 
+them. I would also like to thank 
+[Cloud Native Foundation (CNCF)](https://www.cncf.io/) as well as 
+[Google](https://summerofcode.withgoogle.com/) for providing me with this 
+wonderful opportunity. I hope that both CNCF as well as Google through their 
+respective student developer programs, continue to inspire many more developers 
+for years to come and hope that their journey will be as memorable as mine 😄. 
 
 
 
