@@ -488,9 +488,13 @@ continuous support and guidance throughout this amazing Google Summer of Code
 journey. They always ensured that all my doubts were cleared, helped me in identifying 
 relevant issues and finding solutions for those problems, through extensive 
 discussions. This journey would not have been possible without them. I would 
-like to thank all the essential workers who are working tirelessly throughout 
-this COVID-19 crisis. This project would surely have not been possible without 
-them. I would also like to thank 
+like to thank my friend 
+[Dheeraj](https://www.linkedin.com/in/raghavendradheeraj/) who helped me design
+the ML Bridge logo. I would like to thank all the creators of the 
+[Dash Oil and Gas Project](https://github.com/plotly/dash-sample-apps/tree/master/apps/dash-oil-and-gas)
+The Dash Oil and Gas Project was used as an inspiration for the ML Bridge User 
+Interface. I would like to thank all the essential workers who are working 
+tirelessly throughout this COVID-19 crisis. I would also like to thank 
 [Cloud Native Foundation (CNCF)](https://www.cncf.io/) as well as 
 [Google](https://summerofcode.withgoogle.com/) for providing me with this 
 wonderful opportunity. I hope that both CNCF as well as Google through their 
