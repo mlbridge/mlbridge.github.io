@@ -35,7 +35,7 @@ cybercriminals and prevents the user from accessing such websites.
     - [The ML Bridge User Interface](#the-ml-bridge-user-interface)
     - [The ML Bridge Machine Learning Module](#the-ml-bridge-machine-learning-module)
     - [The Elasticsearch Server](#the-elasticsearch-server)
-- [Important Links](#important-links)
+- [Important Links (Code)](#important-links)
 - [Code Documentation](#code-documentation)
 - [Contributing to the ML Bridge Organisation](#contributing-to-the-ml-bridge-organisation)
 - [Acknowledgements](#acknowledgements)
