@@ -432,7 +432,7 @@ updated). This helps in retrieving the model efficacy of a previously trained
 model, and helps in comparing the same with a newly trained model, and therefore
 changes in the results due to a change in the models can easily be identified.
 
-# Important Links
+# Important Links (Code)
 
 The links to the individual GitHub Repositories are as follows:
 
